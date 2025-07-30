@@ -5,8 +5,17 @@ Comprehensive market research and analysis for mobile game development, focusing
 ## 📁 Repository Structure
 
 ```
-input/          # Source documents and methodology
+input/          # Source documents, methodology, and customer specifications
+├── Game_Genre_Research_Pipeline.md           # 9-step systematic pipeline
+├── Genre Deep-Dive.md + .pdf                # Original customer inputs
+├── Market Research Methodology & Calculation Spec.md
+└── Market Research Pipeline - draft.md + .pdf
+
 output/         # Generated research reports and analysis
+├── Game Market Research Pipeline.md
+├── Hybrid_Casual_Market_Research_Report.md   # Latest: 37% growth analysis
+├── Match-3 Market Research Report.md
+└── Visual Analysis & Market Data Report.md
 ```
 
 ## 🎯 Project Overview
@@ -20,17 +29,25 @@ This repository contains a complete market research pipeline for mobile game dev
 
 ## 📊 Key Research Outputs
 
-### Market Research Reports
+### Latest Market Research Reports
+- **Hybrid-Casual Games Analysis** - $1.4B market, 37% IAP growth, Color Block Jam $25.5M success
 - **Match-3 Market Analysis** - Complete pipeline execution for the $10.2B match-3 genre
 - **Visual Analysis & Market Data** - Comprehensive competitive landscape documentation
-- **Genre Deep-Dive** - Detailed analysis with performance metrics and player insights
+- **Genre Deep-Dive** - Original customer research framework and specifications
 
-### Research Methodology
-- **Market Research Pipeline** - 8-step systematic approach to game market analysis
-- **Calculation Specifications** - Detailed methodology for metric calculations and validation
-- **Quality Assurance Framework** - Data sourcing standards and reliability rankings
+### Research Methodology & Pipeline
+- **Game Genre Research Pipeline** - 9-step systematic AI-automated approach
+- **Market Research Methodology** - Detailed calculation specs and validation standards
+- **Quality Assurance Framework** - Data sourcing hierarchy and reliability rankings
+- **Pipeline Execution** - Genre-agnostic framework with source verification
 
 ## 🎮 Market Intelligence Highlights
+
+### Hybrid-Casual Games (Latest Analysis)
+- **Market Size**: $1.4B revenue in 2025, reaching $174.8M monthly (App Store)
+- **Growth Rate**: **37% IAP revenue increase** year-over-year
+- **Market Leaders**: Color Block Jam ($25.5M Q1), Magic Sort, Twisted Tangle
+- **Key Metrics**: D1: 25-33%, ARPDAU: $0.05-0.10, 40% IAP/60% ad revenue split
 
 ### Match-3 Genre Analysis
 - **Market Size**: $10.2B globally (3rd largest mobile game genre)
@@ -38,29 +55,30 @@ This repository contains a complete market research pipeline for mobile game dev
 - **Growth Rate**: +14% YoY increase in IAP revenue
 - **Key Metrics**: D1: 24%, D7: 20%+, D30: 7.15% retention rates
 
-### Top Performing Games
-1. **Royal Match** - $123M monthly revenue
-2. **Candy Crush Saga** - $88M monthly revenue
-3. **Gardenscapes** - $3B+ all-time revenue
-4. **Homescapes** - $2.5B+ all-time revenue
-
 ## 🔍 Research Methodology
 
-### 8-Step Market Research Pipeline
+### 9-Step AI-Automated Research Pipeline
 
-1. **Market Data Collection** - Industry reports, performance metrics, market sizing
-2. **Competitive Feature Analysis** - Feature matrices and monetization strategies
-3. **Player Sentiment Analysis** - Community research and pain point identification
-4. **Gap Analysis** - Market opportunities and hypothesis generation
-5. **Concept Scoring** - Data-driven prioritization framework
-6. **Reference Game Analysis** - Deep-dive performance and design analysis
-7. **Concept Brief Development** - Detailed specifications for top concepts
-8. **Validation Framework** - Success metrics and testing protocols
+1. **Market Intelligence Collection** - Top games data, performance metrics, regional analysis
+2. **Competitive Feature Analysis** - Feature matrices, monetization models, must-have vs nice-to-have
+3. **Performance Benchmarking** - KPIs, retention rates, ARPDAU, CPI/LTV analysis
+4. **Player Sentiment Analysis** - Community research, app store reviews, pain points
+5. **Industry Context Research** - Expert analysis, GDC insights, trend forecasting
+6. **Gap Analysis & Hypothesis Generation** - Market opportunities, concept ideation
+7. **Concept Scoring & Validation** - Multi-criteria evaluation, comparable game analysis
+8. **Reference Game Deep Dive** - Success factor analysis, monetization teardowns
+9. **Final Report Generation** - Comprehensive analysis with source verification
 
 ### Data Sources & Reliability
-- **Tier 1**: Sensor Tower, App Annie/data.ai, Newzoo, Company earnings
-- **Tier 2**: Statista, GameAnalytics, Business of Apps
-- **Tier 3**: Market research firms, industry blogs, academic research
+- **Tier 1**: Sensor Tower, GameRefinery, App Annie/data.ai, Company earnings
+- **Tier 2**: Statista, GameAnalytics, Liftoff, Business of Apps
+- **Tier 3**: Industry experts (GDC, Naavik, Deconstructor of Fun), community insights
+
+### Critical Requirements
+- **Source Verification**: Every data point backed by working source links
+- **Multi-Source Validation**: Minimum 2-3 sources for major metrics
+- **Quality Gates**: Pipeline halts if sourcing requirements not met
+- **Execution**: 4-6 hours for complete genre analysis
 
 ## 🎨 Concept Development Results
 
@@ -143,5 +161,6 @@ For questions about methodology or research findings, refer to the detailed spec
 ---
 
 *Last Updated: January 2025*  
-*Research Coverage: Match-3 genre comprehensive analysis*  
-*Next Focus: Additional genre deep-dives and cross-genre innovation opportunities*
+*Latest Research: Hybrid-Casual Games Market Analysis (37% growth, $1.4B market)*  
+*Pipeline Status: 9-step AI-automated framework with source verification*  
+*Next Focus: Additional genre deep-dives and emerging market opportunities*
