@@ -4,7 +4,8 @@
       "Bash(find:*)",
       "Bash(mv:*)",
       "WebFetch(domain:apps.apple.com)",
-      "WebFetch(domain:apps.apple.com)"
+      "WebFetch(domain:apps.apple.com)",
+      "Bash(mkdir:*)"
     ],
     "deny": []
   }
