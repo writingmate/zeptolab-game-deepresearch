@@ -13,7 +13,14 @@
       "Bash(rm:*)",
       "Bash(git rm:*)",
       "Bash(gh repo view:*)",
-      "Bash(git checkout:*)"
+      "Bash(git checkout:*)",
+      "WebFetch(domain:sensortower.com)",
+      "WebFetch(domain:www.gamigion.com)",
+      "WebFetch(domain:appfigures.com)",
+      "WebFetch(domain:liftoff.io)",
+      "WebFetch(domain:gameanalytics.com)",
+      "WebFetch(domain:www.data.ai)",
+      "WebFetch(domain:newzoo.com)"
     ],
     "deny": []
   }
