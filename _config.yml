@@ -1,0 +1,43 @@
+# Site settings
+title: ZeptoLab Game Research Reports
+description: Comprehensive market research and analysis for mobile game development
+baseurl: "/zeptolab-game-deepresearch"
+url: "https://writingmate.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Collections
+collections:
+  reports:
+    output: true
+    permalink: /:collection/:name/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .claude/
+
+# Site navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Reports
+    url: /reports/
+  - title: Methodology
+    url: /methodology/
