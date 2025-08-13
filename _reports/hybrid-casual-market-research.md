@@ -85,9 +85,9 @@ Hybrid-casual games represent the fastest-growing segment in mobile gaming, with
   <div class="performance-metrics">
     <h5>📈 Performance Metrics</h5>
     <ul>
-      <li><strong>Revenue:</strong> $43.6M (16% of total hybrid-casual revenue) [(Gamigion, 2025)](https://www.gamigion.com/2025-hybridcasual-market-overview-with-real-data/)</li>
-      <li><strong>Downloads:</strong> 30.4M (8.1% of total downloads) [(Gamigion, 2025)](https://www.gamigion.com/2025-hybridcasual-market-overview-with-real-data/)</li>
-      <li><strong>Monthly Revenue:</strong> $14M (IAP only) [(Gamigion, 2025)](https://www.gamigion.com/2025-hybridcasual-market-overview-with-real-data/)</li>
+      <li><strong>Revenue:</strong> $43.6M (16% of total hybrid-casual revenue) <a href="https://www.gamigion.com/2025-hybridcasual-market-overview-with-real-data/" target="_blank" class="source-link">(Gamigion, 2025)</a></li>
+      <li><strong>Downloads:</strong> 30.4M (8.1% of total downloads) <a href="https://www.gamigion.com/2025-hybridcasual-market-overview-with-real-data/" target="_blank" class="source-link">(Gamigion, 2025)</a></li>
+      <li><strong>Monthly Revenue:</strong> $14M (IAP only) <a href="https://www.gamigion.com/2025-hybridcasual-market-overview-with-real-data/" target="_blank" class="source-link">(Gamigion, 2025)</a></li>
     </ul>
   </div>
 </div>
@@ -133,8 +133,8 @@ Hybrid-casual games represent the fastest-growing segment in mobile gaming, with
   <div class="performance-metrics">
     <h5>📈 Performance Metrics</h5>
     <ul>
-      <li><strong>Position:</strong> First successful hybrid-casual water-sorting adaptation [(Liftoff, 2025)](https://liftoff.io/2025-casual-gaming-apps-report/)</li>
-      <li><strong>Model:</strong> IAA+IAP focused with steep difficulty curve [(Liftoff, 2025)](https://liftoff.io/2025-casual-gaming-apps-report/)</li>
+      <li><strong>Position:</strong> First successful hybrid-casual water-sorting adaptation <a href="https://liftoff.io/2025-casual-gaming-apps-report/" target="_blank" class="source-link">(Liftoff, 2025)</a></li>
+      <li><strong>Model:</strong> IAA+IAP focused with steep difficulty curve <a href="https://liftoff.io/2025-casual-gaming-apps-report/" target="_blank" class="source-link">(Liftoff, 2025)</a></li>
       <li><strong>Android Performance:</strong> 4.33/5 stars, 7.5K ratings</li>
     </ul>
   </div>
@@ -184,7 +184,7 @@ Hybrid-casual games represent the fastest-growing segment in mobile gaming, with
   <div class="performance-metrics">
     <h5>📈 Performance Metrics</h5>
     <ul>
-      <li><strong>Market Share:</strong> Block puzzles represent 71% of puzzle revenue [(Gamigion, 2025)](https://www.gamigion.com/2025-hybridcasual-market-overview-with-real-data/)</li>
+      <li><strong>Market Share:</strong> Block puzzles represent 71% of puzzle revenue <a href="https://www.gamigion.com/2025-hybridcasual-market-overview-with-real-data/" target="_blank" class="source-link">(Gamigion, 2025)</a></li>
       <li><strong>Revenue Model:</strong> Classic block puzzle with hybrid monetization</li>
       <li><strong>Competitive Position:</strong> Part of dominant sub-genre with proven monetization</li>
     </ul>
@@ -409,6 +409,19 @@ The hybrid-casual gaming market demonstrates **37% year-over-year growth** [(Sen
     box-shadow: 0 4px 8px rgba(0, 122, 255, 0.3);
     text-decoration: none;
     color: white !important;
+}
+
+.source-link {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.source-link:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
 }
 
 .game-description {
