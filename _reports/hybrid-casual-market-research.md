@@ -60,6 +60,7 @@ Hybrid-casual games represent the fastest-growing segment in mobile gaming, with
       <li><a href="#1-color-block-jam-rollic-games">Color Block Jam Analysis</a></li>
       <li><a href="#2-magic-sort-grand-games-aş">Magic Sort Analysis</a></li>
       <li><a href="#3-block-puzzle-jewel-旺-周">Block Puzzle Jewel Analysis</a></li>
+      <li><a href="#step-25-game-deconstruction-analysis">Game Deconstruction Analysis</a></li>
     </ul>
   </div>
   
@@ -448,6 +449,168 @@ document.addEventListener('DOMContentLoaded', function() {
 
 ---
 
+## Step 2.5: Game Deconstruction Analysis
+
+### Professional Game Analysis Sources
+
+<div class="deconstruction-section">
+  <div class="analysis-source">
+    <h4>🔍 Deconstructor of Fun Analysis</h4>
+    <p><strong>Source:</strong> <a href="https://www.deconstructoroffun.com/blog/2025/2/3/hybridcasual-puzzles-expanding-the-puzzle-market" target="_blank">Hybrid-Casual Puzzles: Expanding the Puzzle Market</a></p>
+  </div>
+  
+  <div class="analysis-source">
+    <h4>📊 GameRefinery Market Analysis</h4>
+    <p><strong>Source:</strong> <a href="https://www.gamerefinery.com/mobile-game-market-review-march-2025/" target="_blank">Mobile Game Market Review March 2025</a></p>
+  </div>
+</div>
+
+### 1. Color Block Jam - Deep Deconstruction
+
+<div class="game-deconstruction">
+  <div class="deconstruction-header">
+    <h4>🧩 Game Mechanics Breakdown</h4>
+    <div class="analysis-tags">
+      <span class="tag-dof">Deconstructor of Fun</span>
+      <span class="tag-gr">GameRefinery</span>
+    </div>
+  </div>
+  
+  <div class="mechanics-analysis">
+    <h5>🎯 Core Loop Design</h5>
+    <ul>
+      <li><strong>Simplified Mechanics:</strong> Limited interactive elements with immediate gameplay accessibility <span class="source">(Deconstructor of Fun, 2025)</span></li>
+      <li><strong>No Tutorial Friction:</strong> Intuitive mechanics understood in seconds without onboarding barriers</li>
+      <li><strong>Strategic Depth:</strong> Requires more skill-based decision making than typical Match3 games <span class="source">(GameRefinery, March 2025)</span></li>
+      <li><strong>Real-time Adaptation:</strong> Mechanics allow players to adjust strategy mid-level</li>
+    </ul>
+    
+    <h5>🎢 Difficulty Engineering</h5>
+    <ul>
+      <li><strong>"Roller Coaster" Curve:</strong> Alternating challenging and easier levels for sustained engagement</li>
+      <li><strong>Intentional Randomness:</strong> Prevents deterministic gameplay while maintaining fairness</li>
+      <li><strong>Gradual Complexity:</strong> New obstacles/mechanics introduced progressively</li>
+      <li><strong>Partially Obscured Information:</strong> Level previews maintain unpredictability</li>
+    </ul>
+  </div>
+  
+  <div class="monetization-analysis">
+    <h5>💰 Monetization Architecture</h5>
+    <ul>
+      <li><strong>Dual Revenue Model:</strong> Combined IAP and rewarded ads strategy</li>
+      <li><strong>Staged Implementation:</strong> Early levels ad-free, later integration for coin rewards</li>
+      <li><strong>Lives System:</strong> Limited lives with time-based regeneration or premium refills</li>
+      <li><strong>Failed Level Packs:</strong> IAP solutions for difficulty spikes</li>
+      <li><strong>Performance Result:</strong> "Highest IAP performance ever seen for genre" <span class="source">(GameRefinery, 2025)</span></li>
+    </ul>
+  </div>
+  
+  <div class="retention-mechanics">
+    <h5>🔄 Retention Systems</h5>
+    <ul>
+      <li><strong>Win Streak Motivators:</strong> Psychological momentum building</li>
+      <li><strong>Session Length Control:</strong> First session designed for 20-30 minute engagement</li>
+      <li><strong>Progression Gates:</strong> Strategic friction points driving monetization</li>
+      <li><strong>Live Events:</strong> Straightforward events aligned with casual game trends</li>
+    </ul>
+  </div>
+</div>
+
+### 2. Magic Sort - Hybrid Innovation Pioneer
+
+<div class="game-deconstruction">
+  <div class="deconstruction-header">
+    <h4>🧪 Innovation Analysis</h4>
+    <div class="analysis-tags">
+      <span class="tag-gr">GameRefinery</span>
+      <span class="tag-market">Market Analysis</span>
+    </div>
+  </div>
+  
+  <div class="innovation-analysis">
+    <h5>🚀 Market Positioning</h5>
+    <ul>
+      <li><strong>First-Mover Advantage:</strong> First successful hybrid-casual water-sorting adaptation <span class="source">(GameRefinery, 2025)</span></li>
+      <li><strong>Genre Evolution:</strong> Transformed purely hypercasual format into monetizable hybrid model</li>
+      <li><strong>Polished Execution:</strong> High-quality iteration that set category standards</li>
+    </ul>
+    
+    <h5>⚖️ Monetization Balance</h5>
+    <ul>
+      <li><strong>IAA + IAP Focus:</strong> Blends advertising with in-app purchases effectively</li>
+      <li><strong>Steep Difficulty Curve:</strong> Strategic friction designed to drive player investment</li>
+      <li><strong>Light LiveOps Framework:</strong> Minimal but effective retention operations</li>
+    </ul>
+    
+    <h5>📈 Performance Validation</h5>
+    <ul>
+      <li><strong>Top 50 Downloads:</strong> Consistent performance in download charts</li>
+      <li><strong>Top 100 Grossing:</strong> Strong revenue generation for hybrid-casual category</li>
+      <li><strong>Developer Success:</strong> Led Grand Games to launch Car Match: Traffic Puzzle as follow-up</li>
+    </ul>
+  </div>
+</div>
+
+### 3. Hybrid-Casual Design Principles
+
+<div class="design-principles">
+  <h4>🎨 Deconstructor of Fun Framework</h4>
+  
+  <div class="principle-grid">
+    <div class="principle-card">
+      <h5>🎯 Accessibility First</h5>
+      <p>Immediate gameplay with no barriers to entry. Mechanics understandable in seconds without tutorials.</p>
+    </div>
+    
+    <div class="principle-card">
+      <h5>🧠 Strategic Depth</h5>
+      <p>Balance hypercasual simplicity with meaningful decision-making that rewards skill development.</p>
+    </div>
+    
+    <div class="principle-card">
+      <h5>💡 Intentional Unpredictability</h5>
+      <p>Controlled randomness prevents deterministic solutions while maintaining fair gameplay.</p>
+    </div>
+    
+    <div class="principle-card">
+      <h5>🔄 Adaptive Mechanics</h5>
+      <p>Allow real-time strategy adjustments and multitasking-friendly interactions.</p>
+    </div>
+  </div>
+</div>
+
+### 4. GameRefinery Market Intelligence
+
+<div class="market-intelligence">
+  <h4>📊 Industry Performance Benchmarks</h4>
+  
+  <div class="benchmark-data">
+    <h5>🏆 Success Metrics</h5>
+    <ul>
+      <li><strong>Revenue Leadership:</strong> Color Block Jam achieved highest IAP performance in puzzle genre history</li>
+      <li><strong>Sustained Growth:</strong> Consistent top-grossing chart presence since mid-February 2025</li>
+      <li><strong>Innovation Impact:</strong> Growing number of hybrid-casual games in top-grossing charts</li>
+      <li><strong>Developer Scalability:</strong> Rollic and Grand Games demonstrating repeatable success formulas</li>
+    </ul>
+    
+    <h5>🎮 Competitive Landscape</h5>
+    <ul>
+      <li><strong>Screwdom:</strong> 3D hybrid puzzle game achieving chart success</li>
+      <li><strong>All in Hole:</strong> Food-themed casual game with hybrid monetization</li>
+      <li><strong>Bus Escape: Traffic Jam:</strong> Consistent top download performer</li>
+    </ul>
+    
+    <h5>🔮 Future Opportunities</h5>
+    <ul>
+      <li><strong>Blue Ocean Potential:</strong> Hybrid-casual represents untapped market segment</li>
+      <li><strong>Monetization Evolution:</strong> More player-friendly IAA implementations</li>
+      <li><strong>Mechanic Consolidation:</strong> Opportunity to refine core gameplay elements</li>
+    </ul>
+  </div>
+</div>
+
+---
+
 ## Step 3: Market Dynamics & Player Sentiment
 
 ### Verified Performance Indicators
@@ -741,6 +904,146 @@ The hybrid-casual gaming market demonstrates **37% year-over-year growth** [(Sen
 
 .chart-container canvas {
     max-height: 400px;
+}
+
+.deconstruction-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.analysis-source {
+    background: var(--surface-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    text-align: center;
+}
+
+.analysis-source h4 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.game-deconstruction {
+    background: linear-gradient(135deg, var(--surface-color) 0%, #f8fafc 100%);
+    border: 2px solid var(--border-color);
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+.deconstruction-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 1rem;
+}
+
+.analysis-tags {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.tag-dof {
+    background: #4f46e5;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.tag-gr {
+    background: #059669;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.tag-market {
+    background: #dc2626;
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.mechanics-analysis, .monetization-analysis, .retention-mechanics, .innovation-analysis {
+    background: var(--background-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+    border-left: 4px solid var(--primary-color);
+}
+
+.mechanics-analysis h5, .monetization-analysis h5, .retention-mechanics h5, .innovation-analysis h5 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.source {
+    color: var(--accent-color);
+    font-size: 0.85rem;
+    font-style: italic;
+}
+
+.design-principles {
+    margin: 2rem 0;
+}
+
+.principle-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.principle-card {
+    background: var(--background-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.principle-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.principle-card h5 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.market-intelligence {
+    background: linear-gradient(135deg, var(--surface-color) 0%, #f1f5f9 100%);
+    border: 2px solid var(--border-color);
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+.benchmark-data {
+    background: var(--background-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 1rem 0;
+}
+
+.benchmark-data h5 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 0.5rem;
 }
 
 .game-description {

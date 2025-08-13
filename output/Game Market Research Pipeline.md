@@ -2,6 +2,29 @@
 
 This pipeline combines comprehensive market analysis with hands-on genre research to identify viable game concepts. Execute each step systematically, using web search for data gathering and competitive intelligence.
 
+## ⚠️ CRITICAL REQUIREMENTS
+
+### Data Validation & Source Documentation
+**MANDATORY:** Every data point in reports must have a reference to the source with clickable links
+- All metrics must include source attribution: `[(Source, Year)](URL)` 
+- Performance data requires verified links to industry reports
+- No data point can be included without proper source documentation
+- Charts and visualizations must display source links prominently
+
+### Professional Analysis Integration
+**REQUIRED:** Include dedicated professional game analysis sections using:
+- **Deconstructor of Fun:** In-depth game design deconstruction and monetization analysis
+- **GameRefinery:** Market intelligence data and competitive performance metrics
+- **Industry Expert Analysis:** Commentary from recognized game industry analysts
+
+### Interactive Report Features
+**MANDATORY:** All reports must include:
+- **Interactive Charts:** Chart.js visualizations embedded directly in markdown
+- **App Store Integration:** Links, ratings, reviews, and sentiment analysis
+- **Game Screenshots:** Visual documentation with proper attribution
+- **Navigation:** Table of contents with anchor links
+- **Responsive Design:** Mobile-optimized layout and styling
+
 ## Phase 1: Market Intelligence & Genre Analysis
 
 ### Step 1: Market Data Collection
@@ -15,6 +38,13 @@ This pipeline combines comprehensive market analysis with hands-on genre researc
 
 **Deliverable:** List of top 20-50 games with revenue/install data and key performance indicators
 
+**Enhanced Requirements:**
+- App Store links and ratings for each game
+- Screenshots and visual documentation
+- Player review sentiment analysis (positive/negative/neutral)
+- Professional analysis integration from Deconstructor of Fun and GameRefinery
+- Interactive Chart.js visualizations for performance data
+
 ### Step 2: Competitive Feature Analysis
 **Objective:** Map the competitive landscape and identify feature patterns
 
@@ -26,6 +56,13 @@ This pipeline combines comprehensive market analysis with hands-on genre researc
 
 **Deliverable:** Feature matrix categorizing Must-have/Nice-to-have/Optional features across competitors
 
+**Enhanced Requirements:**
+- Visual game overview sections with App Store screenshots
+- Professional deconstruction analysis from industry sources
+- Interactive feature comparison charts
+- Monetization strategy breakdown with verified revenue data
+- UI/UX analysis with visual examples
+
 ### Step 3: Player Sentiment Analysis  
 **Objective:** Understand player preferences, pain points, and unmet needs
 
@@ -36,6 +73,13 @@ This pipeline combines comprehensive market analysis with hands-on genre researc
 4. **Trend analysis:** Look for emerging preferences and declining features
 
 **Deliverable:** Player persona profiles and documented pain points/opportunities
+
+**Enhanced Requirements:**
+- App Store review sentiment extraction and analysis
+- Player ratings and install data integration
+- Community feedback visualization through charts
+- Demographic data with source attribution
+- Pain point prioritization with quantitative backing
 
 ## Phase 2: Market Opportunity Assessment
 
@@ -49,6 +93,13 @@ This pipeline combines comprehensive market analysis with hands-on genre researc
 4. **Adjacent genre inspiration:** Research successful mechanics from related genres
 
 **Deliverable:** 5-10 game concept hypotheses with supporting market data
+
+**Enhanced Requirements:**
+- Professional game deconstruction analysis integration
+- Interactive concept comparison visualizations
+- Market gap analysis with Chart.js presentations
+- Reference game deep-dive with GameRefinery data
+- Competitive positioning maps with visual elements
 
 ### Step 5: Concept Scoring & Validation
 **Objective:** Prioritize concepts using data-driven scoring
@@ -67,6 +118,13 @@ This pipeline combines comprehensive market analysis with hands-on genre researc
 4. **Revenue benchmarks:** Find ARPDAU and LTV data for similar concepts
 
 **Deliverable:** Scored concept matrix with top 3-5 prioritized ideas
+
+**Enhanced Requirements:**
+- Interactive scoring visualizations with Chart.js
+- Market size charts with verified data sources
+- Competition landscape maps with visual elements
+- Revenue potential analysis with benchmark comparisons
+- Risk assessment matrices with professional analysis backing
 
 ## Phase 3: Concept Development & Feasibility
 
@@ -103,9 +161,17 @@ This pipeline combines comprehensive market analysis with hands-on genre researc
 
 ### Research Sources Priority:
 1. **Primary:** Sensor Tower, AppMagic, GameRefinery official reports
-2. **Industry:** GDC talks, Naavik articles, Deconstructor of Fun analysis  
-3. **Community:** Reddit gaming communities, YouTube game analysis channels
-4. **News:** PocketGamer, GameIndustry.biz, VentureBeat games coverage
+2. **Professional Analysis:** Deconstructor of Fun, GameRefinery game-specific analysis
+3. **Industry:** GDC talks, Naavik articles, industry expert commentary
+4. **App Store Data:** Direct integration with App Store ratings, reviews, install data
+5. **Community:** Reddit gaming communities, YouTube game analysis channels
+6. **News:** PocketGamer, GameIndustry.biz, VentureBeat games coverage
+
+### Professional Analysis Integration Requirements:
+- **Deconstructor of Fun:** Include specific game deconstruction insights, monetization breakdowns, design pattern analysis
+- **GameRefinery:** Integrate market intelligence data, competitive benchmarking, feature analysis
+- **Visual Documentation:** Screenshots, UI examples, gameplay flow diagrams
+- **Expert Commentary:** Direct quotes and analysis from recognized industry experts
 
 ### Success Metrics:
 - **Market Understanding:** Clear picture of top 20 games' performance and features
@@ -113,9 +179,53 @@ This pipeline combines comprehensive market analysis with hands-on genre researc
 - **Opportunity Clarity:** 3-5 concepts with quantified market size and competition gaps
 - **Actionable Briefs:** Ready-to-prototype concepts with clear success criteria
 
+### Enhanced Quality Standards:
+- **Source Validation:** 100% of data points linked to authoritative sources
+- **Visual Integration:** All reports include interactive charts and App Store screenshots
+- **Professional Analysis:** Mandatory integration of Deconstructor of Fun and GameRefinery insights
+- **User Experience:** Mobile-responsive design with intuitive navigation
+- **App Store Integration:** Live ratings, review sentiment, and install metrics
+- **Interactive Elements:** Chart.js visualizations embedded directly in markdown
+
 ### Timeline:
 - **Phase 1:** 3-5 days for comprehensive market intelligence
 - **Phase 2:** 2-3 days for opportunity assessment and scoring  
 - **Phase 3:** 2-3 days for concept development and brief creation
 
 Execute this pipeline systematically using web search to gather all data points. Each phase builds on the previous, creating a comprehensive foundation for informed game development decisions.
+
+## Report Technical Specifications
+
+### Jekyll/GitHub Pages Requirements
+- Reports must use `_reports/` collection structure
+- YAML front matter with metadata (genre, market_size, key_findings, sources)
+- Jekyll layouts: `report.html` for individual reports, `default.html` for site pages
+- Responsive CSS with CSS custom properties for theming
+
+### Interactive Visualizations
+- **Chart.js Integration:** Embed Chart.js code directly in markdown (not includes)
+- **Chart Types:** Doughnut charts for market share, bar charts for comparisons, line charts for retention
+- **Responsive Design:** Charts must scale properly on mobile devices
+- **Source Attribution:** All charts display data source links prominently
+
+### App Store Integration Standards
+- **Game Overview Sections:** Include App Store buttons with iOS-style design
+- **Ratings Display:** Current App Store ratings with star visualization
+- **Review Sentiment:** Extract and analyze positive/negative/neutral sentiment
+- **Install Data:** Include download numbers where available with source attribution
+- **Screenshots:** App Store screenshots with proper attribution and responsive design
+
+### Content Navigation Requirements
+- **Table of Contents:** Automatic generation with anchor links
+- **Section Navigation:** Smooth scrolling between report sections
+- **Cross-References:** Links between related reports and sections
+- **Mobile Optimization:** Collapsible navigation for mobile devices
+
+### Professional Analysis Documentation
+- **Deconstructor of Fun Integration:** Direct quotes and analysis with source links
+- **GameRefinery Data:** Market intelligence metrics with proper attribution
+- **Industry Expert Commentary:** Verified quotes from recognized analysts
+- **Visual Elements:** Screenshots, diagrams, and UI examples from professional sources
+- **Analysis Tags:** Visual styling to distinguish professional analysis content
+
+**CRITICAL:** All reports must pass the data validation test - every metric, claim, and insight must have a clickable source link. No exceptions.
