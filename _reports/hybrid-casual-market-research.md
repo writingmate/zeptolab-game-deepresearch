@@ -42,45 +42,16 @@ Hybrid-casual games represent the fastest-growing segment in mobile gaming, with
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
-<div class="table-of-contents">
-  <div class="toc-section">
-    <h4>📊 Market Analysis</h4>
-    <ul>
-      <li><a href="#step-1-market-intelligence-collection">Market Intelligence & Data</a></li>
-      <li><a href="#step-2-top-performing-games-analysis">Top Games Analysis</a></li>
-      <li><a href="#step-3-market-dynamics--player-sentiment">Market Dynamics & Sentiment</a></li>
-    </ul>
-  </div>
-  
-  <div class="toc-section">
-    <h4>🎮 Game Insights</h4>
-    <ul>
-      <li><a href="#1-color-block-jam-rollic-games">Color Block Jam Analysis</a></li>
-      <li><a href="#2-magic-sort-grand-games-aş">Magic Sort Analysis</a></li>
-      <li><a href="#3-block-puzzle-jewel-旺-周">Block Puzzle Jewel Analysis</a></li>
-      <li><a href="#step-25-game-deconstruction-analysis">Game Deconstruction Analysis</a></li>
-    </ul>
-  </div>
-  
-  <div class="toc-section">
-    <h4>🔍 Strategic Analysis</h4>
-    <ul>
-      <li><a href="#step-4-player-behavior-analysis">Player Behavior Analysis</a></li>
-      <li><a href="#step-5-market-gap-analysis--innovation-framework">Market Gap & Innovation</a></li>
-      <li><a href="#step-6-implementation-framework">Implementation Framework</a></li>
-    </ul>
-  </div>
-  
-  <div class="toc-section">
-    <h4>📋 Recommendations</h4>
-    <ul>
-      <li><a href="#recommendations--next-steps">Next Steps & Actions</a></li>
-      <li><a href="#conclusion">Key Insights & Conclusion</a></li>
-    </ul>
-  </div>
-</div>
+1. [Market Intelligence & Data](#step-1-market-intelligence-collection)
+2. [Top Games Analysis](#step-2-top-performing-games-analysis)
+3. [Game Deconstruction Analysis](#step-25-game-deconstruction-analysis)
+4. [Market Dynamics & Player Sentiment](#step-3-market-dynamics--player-sentiment)
+5. [Player Behavior Analysis](#step-4-player-behavior-analysis)
+6. [Market Gap & Innovation Framework](#step-5-market-gap-analysis--innovation-framework)
+7. [Implementation Framework](#step-6-implementation-framework)
+8. [Recommendations & Next Steps](#recommendations--next-steps)
 
 ---
 
@@ -88,207 +59,48 @@ Hybrid-casual games represent the fastest-growing segment in mobile gaming, with
 
 ### Market Performance Data
 
-<div class="charts-section">
-  <!-- Chart.js library -->
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.min.js"></script>
+### Regional Revenue Distribution (March 2025)
 
-  <!-- Market Revenue Distribution Chart -->
-  <div class="chart-container">
-    <h4>Regional Revenue Distribution (March 2025)</h4>
-    <canvas id="regionalRevenueChart" width="400" height="200"></canvas>
-  </div>
+| Region | Revenue | Market Share |
+|--------|---------|-------------|
+| United States | $68M | 39% |
+| China | $42.8M | 24% |
+| Japan | $11.9M | 7% |
+| Other Markets | $52.1M | 30% |
+| **Total** | **$174.8M** | **100%** |
 
-  <!-- Puzzle Sub-Genre Revenue Share -->
-  <div class="chart-container">
-    <h4>Puzzle Sub-Genre Revenue Share</h4>
-    <canvas id="puzzleGenreChart" width="400" height="200"></canvas>
-  </div>
+*Source: [(Sensor Tower, 2025)](https://sensortower.com/blog/state-of-mobile-gaming-2025)*
 
-  <!-- Top Games Revenue Comparison -->
-  <div class="chart-container">
-    <h4>Top Hybrid-Casual Games Revenue (Q1 2025)</h4>
-    <canvas id="topGamesChart" width="400" height="200"></canvas>
-  </div>
+### Puzzle Sub-Genre Revenue Share
 
-  <!-- Retention Rates Chart -->
-  <div class="chart-container">
-    <h4>Hybrid-Casual Retention Rates</h4>
-    <canvas id="retentionChart" width="400" height="200"></canvas>
-  </div>
-</div>
+| Sub-Genre | Revenue Share |
+|-----------|--------------|
+| Block Puzzles | 71% |
+| Screw Puzzles | 20% |
+| Sort Puzzles | 9% |
 
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    // Check if Chart.js is loaded
-    if (typeof Chart === 'undefined') {
-        console.error('Chart.js not loaded');
-        return;
-    }
+*Source: [(Gamigion, 2025)](https://www.gamigion.com/2025-hybridcasual-market-overview-with-real-data/)*
 
-    // Regional Revenue Distribution
-    const regionalCtx = document.getElementById('regionalRevenueChart');
-    if (regionalCtx) {
-        new Chart(regionalCtx, {
-            type: 'doughnut',
-            data: {
-                labels: ['United States', 'China', 'Japan', 'Other Markets'],
-                datasets: [{
-                    data: [68, 42.8, 11.9, 52.1],
-                    backgroundColor: [
-                        '#2563eb',
-                        '#dc2626',
-                        '#16a34a',
-                        '#64748b'
-                    ]
-                }]
-            },
-            options: {
-                responsive: true,
-                plugins: {
-                    legend: {
-                        position: 'bottom'
-                    },
-                    tooltip: {
-                        callbacks: {
-                            label: function(context) {
-                                return context.label + ': $' + context.parsed + 'M (' + 
-                                       Math.round((context.parsed / 174.8) * 100) + '%)';
-                            }
-                        }
-                    }
-                }
-            }
-        });
-    }
+### Top Hybrid-Casual Games Revenue (Q1 2025)
 
-    // Puzzle Sub-Genre Revenue Share
-    const puzzleCtx = document.getElementById('puzzleGenreChart');
-    if (puzzleCtx) {
-        new Chart(puzzleCtx, {
-            type: 'bar',
-            data: {
-                labels: ['Block Puzzles', 'Screw Puzzles', 'Sort Puzzles'],
-                datasets: [{
-                    label: 'Revenue Share (%)',
-                    data: [71, 20, 9],
-                    backgroundColor: ['#0ea5e9', '#f59e0b', '#10b981']
-                }]
-            },
-            options: {
-                responsive: true,
-                scales: {
-                    y: {
-                        beginAtZero: true,
-                        max: 80,
-                        ticks: {
-                            callback: function(value) {
-                                return value + '%';
-                            }
-                        }
-                    }
-                },
-                plugins: {
-                    legend: {
-                        display: false
-                    }
-                }
-            }
-        });
-    }
+| Game | Developer | Monthly Revenue |
+|------|-----------|----------------|
+| Color Block Jam | Rollic Games | $43.6M |
+| Hexa Sort | Rollic Games | $9.5M |
+| Triple Match City | MOONEE | $9.1M |
+| Raid Rush TD | Good Job Games | $7.6M |
 
-    // Top Games Revenue Comparison
-    const topGamesCtx = document.getElementById('topGamesChart');
-    if (topGamesCtx) {
-        new Chart(topGamesCtx, {
-            type: 'bar',
-            data: {
-                labels: ['Color Block Jam', 'Hexa Sort', 'Triple Match City', 'Raid Rush TD'],
-                datasets: [{
-                    label: 'Revenue ($M)',
-                    data: [43.6, 9.5, 9.1, 7.6],
-                    backgroundColor: [
-                        '#2563eb',
-                        '#dc2626',
-                        '#16a34a',
-                        '#f59e0b'
-                    ]
-                }]
-            },
-            options: {
-                responsive: true,
-                indexAxis: 'y',
-                scales: {
-                    x: {
-                        beginAtZero: true,
-                        ticks: {
-                            callback: function(value) {
-                                return '$' + value + 'M';
-                            }
-                        }
-                    }
-                },
-                plugins: {
-                    legend: {
-                        display: false
-                    },
-                    tooltip: {
-                        callbacks: {
-                            label: function(context) {
-                                return context.label + ': $' + context.parsed + 'M';
-                            }
-                        }
-                    }
-                }
-            }
-        });
-    }
+*Source: [(Sensor Tower, 2025)](https://sensortower.com/blog/state-of-mobile-gaming-2025)*
 
-    // Retention Rates Chart
-    const retentionCtx = document.getElementById('retentionChart');
-    if (retentionCtx) {
-        new Chart(retentionCtx, {
-            type: 'line',
-            data: {
-                labels: ['Day 1', 'Day 7', 'Day 30'],
-                datasets: [{
-                    label: 'Retention Rate (%)',
-                    data: [45, 20, 10],
-                    borderColor: '#2563eb',
-                    backgroundColor: 'rgba(37, 99, 235, 0.1)',
-                    tension: 0.4,
-                    fill: true
-                }]
-            },
-            options: {
-                responsive: true,
-                scales: {
-                    y: {
-                        beginAtZero: true,
-                        max: 50,
-                        ticks: {
-                            callback: function(value) {
-                                return value + '%';
-                            }
-                        }
-                    }
-                },
-                plugins: {
-                    legend: {
-                        display: false
-                    },
-                    tooltip: {
-                        callbacks: {
-                            label: function(context) {
-                                return 'Retention: ' + context.parsed.y + '%';
-                            }
-                        }
-                    }
-                }
-            }
-        });
-    }
-});
-</script>
+### Hybrid-Casual Retention Benchmarks
+
+| Metric | Industry Average |
+|--------|-----------------|
+| Day 1 Retention | 45% |
+| Day 7 Retention | 20% |
+| Day 30 Retention | 10% |
+
+*Source: [(GameRefinery, 2025)](https://gamerefinery.com/mobile-game-market-review-march-2025/)*
 
 **Overall Market Size:**
 - **Growth Rate**: **37% increase** in IAP revenue year-over-year (2024-2025) [(Sensor Tower State of Mobile Gaming, 2025)](https://sensortower.com/blog/state-of-mobile-gaming-2025)
@@ -304,6 +116,12 @@ document.addEventListener('DOMContentLoaded', function() {
 ## Step 2: Top Performing Games Analysis
 
 ### 1. Color Block Jam (Rollic Games)
+
+![Color Block Jam App Icon](https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/db/9e/d7/db9ed786-df5f-575e-1bf4-b9e53efc332b/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1200x630wa.png)
+
+Color Block Jam represents the evolution of hybrid-casual gaming, combining the accessibility of hypercasual mechanics with the monetization depth of traditional casual games.
+
+![Color Block Jam Gameplay](https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/81/9e/bd/819ebdff-6356-23c8-4977-52c7556ab5cb/CBJM030325_appstore_V1_2048x2732.jpg/643x0w.jpg)
 
 <div class="game-overview">
   <div class="game-header">
@@ -352,6 +170,12 @@ document.addEventListener('DOMContentLoaded', function() {
 ---
 
 ### 2. Magic Sort! (Grand Games A.Ş.)
+
+![Magic Sort App Icon](https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/61/96/a8/6196a8af-047f-10c0-77d5-4f73340a5813/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1200x630wa.png)
+
+Magic Sort pioneered the hybrid-casual adaptation of the hypercasual water-sorting gameplay, transforming a simple mechanic into a monetizable gaming experience.
+
+![Magic Sort Gameplay](https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/56/71/b7/5671b7b6-ddbd-3fc7-b4fa-3b3530618927/RainbowSS_1290x2796.jpg/300x0w.jpg)
 
 <div class="game-overview">
   <div class="game-header">
@@ -453,68 +277,38 @@ document.addEventListener('DOMContentLoaded', function() {
 
 ### Professional Game Analysis Sources
 
-<div class="deconstruction-section">
-  <div class="analysis-source">
-    <h4>🔍 Deconstructor of Fun Analysis</h4>
-    <p><strong>Source:</strong> <a href="https://www.deconstructoroffun.com/blog/2025/2/3/hybridcasual-puzzles-expanding-the-puzzle-market" target="_blank">Hybrid-Casual Puzzles: Expanding the Puzzle Market</a></p>
-  </div>
-  
-  <div class="analysis-source">
-    <h4>📊 GameRefinery Market Analysis</h4>
-    <p><strong>Source:</strong> <a href="https://www.gamerefinery.com/mobile-game-market-review-march-2025/" target="_blank">Mobile Game Market Review March 2025</a></p>
-  </div>
-</div>
+This analysis integrates insights from two leading game industry research sources:
+
+**Deconstructor of Fun Analysis:** [Hybrid-Casual Puzzles: Expanding the Puzzle Market](https://www.deconstructoroffun.com/blog/2025/2/3/hybridcasual-puzzles-expanding-the-puzzle-market)
+
+**GameRefinery Market Analysis:** [Mobile Game Market Review March 2025](https://www.gamerefinery.com/mobile-game-market-review-march-2025/)
 
 ### 1. Color Block Jam - Deep Deconstruction
 
-<div class="game-deconstruction">
-  <div class="deconstruction-header">
-    <h4>🧩 Game Mechanics Breakdown</h4>
-    <div class="analysis-tags">
-      <span class="tag-dof">Deconstructor of Fun</span>
-      <span class="tag-gr">GameRefinery</span>
-    </div>
-  </div>
-  
-  <div class="mechanics-analysis">
-    <h5>🎯 Core Loop Design</h5>
-    <ul>
-      <li><strong>Simplified Mechanics:</strong> Limited interactive elements with immediate gameplay accessibility <span class="source">(Deconstructor of Fun, 2025)</span></li>
-      <li><strong>No Tutorial Friction:</strong> Intuitive mechanics understood in seconds without onboarding barriers</li>
-      <li><strong>Strategic Depth:</strong> Requires more skill-based decision making than typical Match3 games <span class="source">(GameRefinery, March 2025)</span></li>
-      <li><strong>Real-time Adaptation:</strong> Mechanics allow players to adjust strategy mid-level</li>
-    </ul>
-    
-    <h5>🎢 Difficulty Engineering</h5>
-    <ul>
-      <li><strong>"Roller Coaster" Curve:</strong> Alternating challenging and easier levels for sustained engagement</li>
-      <li><strong>Intentional Randomness:</strong> Prevents deterministic gameplay while maintaining fairness</li>
-      <li><strong>Gradual Complexity:</strong> New obstacles/mechanics introduced progressively</li>
-      <li><strong>Partially Obscured Information:</strong> Level previews maintain unpredictability</li>
-    </ul>
-  </div>
-  
-  <div class="monetization-analysis">
-    <h5>💰 Monetization Architecture</h5>
-    <ul>
-      <li><strong>Dual Revenue Model:</strong> Combined IAP and rewarded ads strategy</li>
-      <li><strong>Staged Implementation:</strong> Early levels ad-free, later integration for coin rewards</li>
-      <li><strong>Lives System:</strong> Limited lives with time-based regeneration or premium refills</li>
-      <li><strong>Failed Level Packs:</strong> IAP solutions for difficulty spikes</li>
-      <li><strong>Performance Result:</strong> "Highest IAP performance ever seen for genre" <span class="source">(GameRefinery, 2025)</span></li>
-    </ul>
-  </div>
-  
-  <div class="retention-mechanics">
-    <h5>🔄 Retention Systems</h5>
-    <ul>
-      <li><strong>Win Streak Motivators:</strong> Psychological momentum building</li>
-      <li><strong>Session Length Control:</strong> First session designed for 20-30 minute engagement</li>
-      <li><strong>Progression Gates:</strong> Strategic friction points driving monetization</li>
-      <li><strong>Live Events:</strong> Straightforward events aligned with casual game trends</li>
-    </ul>
-  </div>
-</div>
+**Game Mechanics Breakdown** *(Source: Deconstructor of Fun, GameRefinery)*
+
+- **Simplified Mechanics:** Limited interactive elements with immediate gameplay accessibility *(Deconstructor of Fun, 2025)*
+- **No Tutorial Friction:** Intuitive mechanics understood in seconds without onboarding barriers
+- **Strategic Depth:** Requires more skill-based decision making than typical Match3 games *(GameRefinery, March 2025)*
+- **Real-time Adaptation:** Mechanics allow players to adjust strategy mid-level
+
+**Difficulty Engineering:**
+- **"Roller Coaster" Curve:** Alternating challenging and easier levels for sustained engagement
+- **Intentional Randomness:** Prevents deterministic gameplay while maintaining fairness
+- **Gradual Complexity:** New obstacles/mechanics introduced progressively
+- **Partially Obscured Information:** Level previews maintain unpredictability
+**Monetization Architecture:**
+- **Dual Revenue Model:** Combined IAP and rewarded ads strategy
+- **Staged Implementation:** Early levels ad-free, later integration for coin rewards
+- **Lives System:** Limited lives with time-based regeneration or premium refills
+- **Failed Level Packs:** IAP solutions for difficulty spikes
+- **Performance Result:** "Highest IAP performance ever seen for genre" *(GameRefinery, 2025)*
+
+**Retention Systems:**
+- **Win Streak Motivators:** Psychological momentum building
+- **Session Length Control:** First session designed for 20-30 minute engagement
+- **Progression Gates:** Strategic friction points driving monetization
+- **Live Events:** Straightforward events aligned with casual game trends
 
 ### 2. Magic Sort - Hybrid Innovation Pioneer
 
@@ -758,13 +552,12 @@ The hybrid-casual gaming market demonstrates **37% year-over-year growth** [(Sen
 **Revenue Potential:** $9M+ annual target based on top 10% market performance
 
 <style>
+/* Simple blog-style CSS */
 .game-overview {
-    background: linear-gradient(135deg, var(--surface-color) 0%, #f8fafc 100%);
-    border: 2px solid var(--border-color);
-    border-radius: 12px;
-    padding: 2rem;
+    background: #f9f9f9;
+    border-left: 4px solid #007AFF;
+    padding: 1.5rem;
     margin: 2rem 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
 .game-header {
