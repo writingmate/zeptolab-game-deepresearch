@@ -71,6 +71,7 @@ Hybrid-casual games represent the fastest-growing segment in mobile gaming, with
       <span class="reviews">📊 78K Reviews</span>
       <span class="size">💾 317.2 MB</span>
       <span class="price">💰 Free + IAP</span>
+      <a href="https://apps.apple.com/us/app/color-block-jam/id6504332779" target="_blank" class="app-store-link">📱 View on App Store</a>
     </div>
   </div>
   
@@ -118,6 +119,7 @@ Hybrid-casual games represent the fastest-growing segment in mobile gaming, with
       <span class="reviews">📊 57K Reviews</span>
       <span class="size">💾 544.5 MB</span>
       <span class="price">💰 Free + IAP</span>
+      <a href="https://apps.apple.com/us/app/magic-sort/id6499209744" target="_blank" class="app-store-link">📱 View on App Store</a>
     </div>
   </div>
   
@@ -168,6 +170,7 @@ Hybrid-casual games represent the fastest-growing segment in mobile gaming, with
       <span class="reviews">📊 92 Reviews</span>
       <span class="size">💾 32.8 MB</span>
       <span class="price">💰 Free</span>
+      <a href="https://apps.apple.com/us/app/block-puzzle-jewel/id1425006886" target="_blank" class="app-store-link">📱 View on App Store</a>
     </div>
   </div>
   
@@ -386,6 +389,27 @@ The hybrid-casual gaming market demonstrates **37% year-over-year growth** [(Sen
 .reviews { color: var(--primary-color); }
 .size { color: var(--text-muted); }
 .price { color: var(--accent-color); }
+
+.app-store-link {
+    background: linear-gradient(135deg, #007AFF 0%, #0051D5 100%);
+    color: white !important;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 122, 255, 0.2);
+}
+
+.app-store-link:hover {
+    background: linear-gradient(135deg, #0051D5 0%, #003D99 100%);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 122, 255, 0.3);
+    text-decoration: none;
+    color: white !important;
+}
 
 .game-description {
     margin: 1.5rem 0;
