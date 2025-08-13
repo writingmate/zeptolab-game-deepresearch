@@ -87,7 +87,207 @@ Hybrid-casual games represent the fastest-growing segment in mobile gaming, with
 
 ### Market Performance Data
 
-{% include charts.html %}
+<div class="charts-section">
+  <!-- Chart.js library -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.min.js"></script>
+
+  <!-- Market Revenue Distribution Chart -->
+  <div class="chart-container">
+    <h4>Regional Revenue Distribution (March 2025)</h4>
+    <canvas id="regionalRevenueChart" width="400" height="200"></canvas>
+  </div>
+
+  <!-- Puzzle Sub-Genre Revenue Share -->
+  <div class="chart-container">
+    <h4>Puzzle Sub-Genre Revenue Share</h4>
+    <canvas id="puzzleGenreChart" width="400" height="200"></canvas>
+  </div>
+
+  <!-- Top Games Revenue Comparison -->
+  <div class="chart-container">
+    <h4>Top Hybrid-Casual Games Revenue (Q1 2025)</h4>
+    <canvas id="topGamesChart" width="400" height="200"></canvas>
+  </div>
+
+  <!-- Retention Rates Chart -->
+  <div class="chart-container">
+    <h4>Hybrid-Casual Retention Rates</h4>
+    <canvas id="retentionChart" width="400" height="200"></canvas>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Check if Chart.js is loaded
+    if (typeof Chart === 'undefined') {
+        console.error('Chart.js not loaded');
+        return;
+    }
+
+    // Regional Revenue Distribution
+    const regionalCtx = document.getElementById('regionalRevenueChart');
+    if (regionalCtx) {
+        new Chart(regionalCtx, {
+            type: 'doughnut',
+            data: {
+                labels: ['United States', 'China', 'Japan', 'Other Markets'],
+                datasets: [{
+                    data: [68, 42.8, 11.9, 52.1],
+                    backgroundColor: [
+                        '#2563eb',
+                        '#dc2626',
+                        '#16a34a',
+                        '#64748b'
+                    ]
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'bottom'
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                return context.label + ': $' + context.parsed + 'M (' + 
+                                       Math.round((context.parsed / 174.8) * 100) + '%)';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    }
+
+    // Puzzle Sub-Genre Revenue Share
+    const puzzleCtx = document.getElementById('puzzleGenreChart');
+    if (puzzleCtx) {
+        new Chart(puzzleCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Block Puzzles', 'Screw Puzzles', 'Sort Puzzles'],
+                datasets: [{
+                    label: 'Revenue Share (%)',
+                    data: [71, 20, 9],
+                    backgroundColor: ['#0ea5e9', '#f59e0b', '#10b981']
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 80,
+                        ticks: {
+                            callback: function(value) {
+                                return value + '%';
+                            }
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                }
+            }
+        });
+    }
+
+    // Top Games Revenue Comparison
+    const topGamesCtx = document.getElementById('topGamesChart');
+    if (topGamesCtx) {
+        new Chart(topGamesCtx, {
+            type: 'bar',
+            data: {
+                labels: ['Color Block Jam', 'Hexa Sort', 'Triple Match City', 'Raid Rush TD'],
+                datasets: [{
+                    label: 'Revenue ($M)',
+                    data: [43.6, 9.5, 9.1, 7.6],
+                    backgroundColor: [
+                        '#2563eb',
+                        '#dc2626',
+                        '#16a34a',
+                        '#f59e0b'
+                    ]
+                }]
+            },
+            options: {
+                responsive: true,
+                indexAxis: 'y',
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        ticks: {
+                            callback: function(value) {
+                                return '$' + value + 'M';
+                            }
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                return context.label + ': $' + context.parsed + 'M';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    }
+
+    // Retention Rates Chart
+    const retentionCtx = document.getElementById('retentionChart');
+    if (retentionCtx) {
+        new Chart(retentionCtx, {
+            type: 'line',
+            data: {
+                labels: ['Day 1', 'Day 7', 'Day 30'],
+                datasets: [{
+                    label: 'Retention Rate (%)',
+                    data: [45, 20, 10],
+                    borderColor: '#2563eb',
+                    backgroundColor: 'rgba(37, 99, 235, 0.1)',
+                    tension: 0.4,
+                    fill: true
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        max: 50,
+                        ticks: {
+                            callback: function(value) {
+                                return value + '%';
+                            }
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    },
+                    tooltip: {
+                        callbacks: {
+                            label: function(context) {
+                                return 'Retention: ' + context.parsed.y + '%';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    }
+});
+</script>
 
 **Overall Market Size:**
 - **Growth Rate**: **37% increase** in IAP revenue year-over-year (2024-2025) [(Sensor Tower State of Mobile Gaming, 2025)](https://sensortower.com/blog/state-of-mobile-gaming-2025)
@@ -519,6 +719,28 @@ The hybrid-casual gaming market demonstrates **37% year-over-year growth** [(Sen
     border-left-color: var(--primary-color);
     transform: translateX(4px);
     text-decoration: none;
+}
+
+.charts-section {
+    margin: 2rem 0;
+}
+
+.chart-container {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    background: var(--surface-color);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.chart-container h4 {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+.chart-container canvas {
+    max-height: 400px;
 }
 
 .game-description {
