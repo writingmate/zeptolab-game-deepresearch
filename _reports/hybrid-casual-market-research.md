@@ -42,6 +42,47 @@ Hybrid-casual games represent the fastest-growing segment in mobile gaming, with
 
 ---
 
+## 📑 Table of Contents
+
+<div class="table-of-contents">
+  <div class="toc-section">
+    <h4>📊 Market Analysis</h4>
+    <ul>
+      <li><a href="#step-1-market-intelligence-collection">Market Intelligence & Data</a></li>
+      <li><a href="#step-2-top-performing-games-analysis">Top Games Analysis</a></li>
+      <li><a href="#step-3-market-dynamics--player-sentiment">Market Dynamics & Sentiment</a></li>
+    </ul>
+  </div>
+  
+  <div class="toc-section">
+    <h4>🎮 Game Insights</h4>
+    <ul>
+      <li><a href="#1-color-block-jam-rollic-games">Color Block Jam Analysis</a></li>
+      <li><a href="#2-magic-sort-grand-games-aş">Magic Sort Analysis</a></li>
+      <li><a href="#3-block-puzzle-jewel-旺-周">Block Puzzle Jewel Analysis</a></li>
+    </ul>
+  </div>
+  
+  <div class="toc-section">
+    <h4>🔍 Strategic Analysis</h4>
+    <ul>
+      <li><a href="#step-4-player-behavior-analysis">Player Behavior Analysis</a></li>
+      <li><a href="#step-5-market-gap-analysis--innovation-framework">Market Gap & Innovation</a></li>
+      <li><a href="#step-6-implementation-framework">Implementation Framework</a></li>
+    </ul>
+  </div>
+  
+  <div class="toc-section">
+    <h4>📋 Recommendations</h4>
+    <ul>
+      <li><a href="#recommendations--next-steps">Next Steps & Actions</a></li>
+      <li><a href="#conclusion">Key Insights & Conclusion</a></li>
+    </ul>
+  </div>
+</div>
+
+---
+
 ## Step 1: Market Intelligence Collection
 
 ### Market Performance Data
@@ -424,6 +465,62 @@ The hybrid-casual gaming market demonstrates **37% year-over-year growth** [(Sen
     text-decoration: underline;
 }
 
+.table-of-contents {
+    background: linear-gradient(135deg, var(--surface-color) 0%, #f8fafc 100%);
+    border: 2px solid var(--border-color);
+    border-radius: 12px;
+    padding: 2rem;
+    margin: 2rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.toc-section {
+    background: var(--background-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.toc-section h4 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 0.5rem;
+}
+
+.toc-section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.toc-section li {
+    margin-bottom: 0.75rem;
+}
+
+.toc-section a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem;
+    border-radius: 6px;
+    display: block;
+    transition: all 0.2s ease;
+    border-left: 3px solid transparent;
+}
+
+.toc-section a:hover {
+    background: var(--surface-color);
+    color: var(--primary-color);
+    border-left-color: var(--primary-color);
+    transform: translateX(4px);
+    text-decoration: none;
+}
+
 .game-description {
     margin: 1.5rem 0;
 }
@@ -462,6 +559,16 @@ The hybrid-casual gaming market demonstrates **37% year-over-year growth** [(Sen
     }
     
     .game-overview {
+        padding: 1rem;
+    }
+    
+    .table-of-contents {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    
+    .toc-section {
         padding: 1rem;
     }
 }
