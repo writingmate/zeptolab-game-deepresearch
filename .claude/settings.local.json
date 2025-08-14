@@ -20,8 +20,21 @@
       "WebFetch(domain:liftoff.io)",
       "WebFetch(domain:gameanalytics.com)",
       "WebFetch(domain:www.data.ai)",
-      "WebFetch(domain:newzoo.com)"
+      "WebFetch(domain:newzoo.com)",
+      "WebFetch(domain:www.deconstructoroffun.com)",
+      "WebFetch(domain:www.gamerefinery.com)",
+      "WebFetch(domain:gamerefinery.com)",
+      "WebSearch",
+      "WebFetch(domain:naavik.co)",
+      "WebFetch(domain:reg.gdconf.com)",
+      "WebFetch(domain:business.mistplay.com)",
+      "WebFetch(domain:gamedevreports.substack.com)",
+      "WebFetch(domain:www.mistplay.com)",
+      "Bash(git pull:*)",
+      "Bash(git stash:*)"
     ],
-    "deny": []
-  }
+    "deny": [],
+    "defaultMode": "acceptEdits"
+  },
+  "agents": ".claude/agents"
 }

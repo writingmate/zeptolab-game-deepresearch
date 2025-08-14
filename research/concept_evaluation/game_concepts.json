@@ -1,0 +1,1504 @@
+{
+  "metadata": {
+    "created_date": "2025-08-14",
+    "total_concepts": 18,
+    "methodology": "Data-driven concept generation based on market intelligence, player insights, and strategic opportunities",
+    "scoring_framework": "100-point rigorous evaluation system"
+  },
+  "concepts": {
+    "1": {
+      "concept_name": "EthiQuest: Premium Strategy RPG",
+      "core_description": {
+        "gameplay_loop": "Deep strategy RPG with squad-based combat, base building, and narrative campaigns. Premium model with cosmetic-only monetization.",
+        "genre": "Strategy RPG",
+        "subgenre": "Squad-based tactical RPG with base management",
+        "unique_value_proposition": "First major mobile strategy RPG with completely ethical monetization - no pay-to-win, no energy systems, no loot boxes",
+        "target_demographic": "Millennials and Gen X strategy/RPG fans willing to pay premium for ethical experience",
+        "market_segment": "Premium strategy gaming on mobile"
+      },
+      "market_potential_scoring": {
+        "market_size": 10,
+        "evidence": "Strategy $17.5B (21.4% market share), RPG $16.8B (20.5% market share) - combined TAM >$30B",
+        "citations": ["genre_rankings.json lines 28-45", "Combined revenue from top 2 genres"],
+        "growth_trajectory": 4,
+        "evidence_growth": "Strategy +14.5% downloads, RPG declining but stable revenue base",
+        "citations_growth": ["genre_rankings.json line 33", "genre_rankings.json line 42"],
+        "competition_intensity": 5,
+        "evidence_competition": "Clear ethical monetization gap, 95% frequency score for predatory monetization complaints",
+        "citations_competition": ["market_gaps.json lines 14-39", "pain_points_analysis.json lines 15-42"],
+        "revenue_potential": 8,
+        "evidence_revenue": "Strategy ARPU $8-15/month, RPG ARPU $6-12/month, premium willingness from Millennials $5-10",
+        "citations_revenue": ["performance_metrics.json lines 47-71", "unmet_needs.json lines 166-169"],
+        "total_market_score": 27
+      },
+      "player_alignment_scoring": {
+        "addresses_pain_points": 10,
+        "evidence_pain": "Directly addresses predatory monetization (95% frequency), pay-to-win mechanics (87% mention)",
+        "citations_pain": ["pain_points_analysis.json lines 15-42", "pain_points_analysis.json lines 17-23"],
+        "satisfies_unmet_needs": 9,
+        "evidence_needs": "Fair F2P monetization 89% demand score, ethical gaming leadership opportunity",
+        "citations_needs": ["unmet_needs.json lines 32-53", "market_gaps.json lines 34-39"],
+        "demographic_appeal": 5,
+        "evidence_demo": "Strong Millennial appeal (highest spending tolerance), strategy/RPG high engagement",
+        "citations_demo": ["performance_metrics.json lines 56-77", "demographic_insights.json"],
+        "total_player_score": 24
+      },
+      "competitive_advantage_scoring": {
+        "innovation_vs_existing": 9,
+        "evidence_innovation": "First major ethical strategy RPG, minimal competition (only Apple Arcade similar)",
+        "citations_innovation": ["market_gaps.json lines 31-32", "strategic_opportunities.json lines 52-53"],
+        "defensibility_moat": 4,
+        "evidence_moat": "Community advocacy, brand differentiation, but replicable approach",
+        "citations_moat": ["strategic_opportunities.json lines 63-66"],
+        "first_mover_advantage": 5,
+        "evidence_timing": "Critical timing with 32% spenders planning reduction, ethical demand peak",
+        "citations_timing": ["market_gaps.json line 22", "strategic_opportunities.json lines 49-50"],
+        "total_competitive_score": 18
+      },
+      "development_feasibility_scoring": {
+        "technical_complexity": 4,
+        "evidence_technical": "Proven game mechanics, standard mobile strategy development",
+        "citations_technical": ["strategic_opportunities.json line 62"],
+        "time_to_market": 4,
+        "evidence_time": "6-12 months timeline for ethical framework + initial title",
+        "citations_time": ["strategic_opportunities.json lines 17-26"],
+        "resource_requirements": 3,
+        "evidence_resources": "$2-5M initial investment required for framework and development",
+        "citations_resources": ["strategic_opportunities.json line 26"],
+        "total_feasibility_score": 11
+      },
+      "strategic_fit_scoring": {
+        "platform_optimization": 5,
+        "evidence_platform": "iOS premium focus (2-3x higher ARPU), cross-platform potential",
+        "citations_platform": ["monetization_analysis.json lines 176-177", "unmet_needs.json lines 11-30"],
+        "monetization_alignment": 5,
+        "evidence_monetization": "Perfectly aligned with ethical monetization trends, sustainable model",
+        "citations_monetization": ["market_gaps.json lines 34-39", "monetization_analysis.json"],
+        "total_strategic_score": 10
+      },
+      "total_score": 90,
+      "classification": "Exceptional Opportunity",
+      "comparable_games": [
+        "Fire Emblem Heroes (but with ethical monetization)",
+        "XCOM Enemy Within (mobile strategy depth)",
+        "Apple Arcade premium model games"
+      ],
+      "success_metrics": [
+        "40%+ retention above industry average",
+        "3x organic growth rate",
+        "Net Promoter Score >50"
+      ]
+    },
+    "2": {
+      "concept_name": "AdaptPuzzle: AI-Driven Match Puzzler",
+      "core_description": {
+        "gameplay_loop": "Match-3 puzzle game with AI that adapts difficulty, provides personalized hints, and generates custom levels based on player behavior",
+        "genre": "Puzzle",
+        "subgenre": "Match-3 with AI personalization",
+        "unique_value_proposition": "First puzzle game to truly adapt to individual player skills and preferences using real-time AI",
+        "target_demographic": "All ages, particularly Gen Z and Millennials seeking personalized experiences",
+        "market_segment": "AI-enhanced casual gaming"
+      },
+      "market_potential_scoring": {
+        "market_size": 9,
+        "evidence": "Puzzle $12.2B revenue (14.9% market share), 20% download share",
+        "citations": ["genre_rankings.json lines 48-56"],
+        "growth_trajectory": 4,
+        "evidence_growth": "Puzzle genre positive YoY growth, strong hybrid monetization adoption",
+        "citations_growth": ["genre_rankings.json line 51", "genre_rankings.json line 55"],
+        "competition_intensity": 4,
+        "evidence_competition": "Basic difficulty settings in most games, minimal true personalization",
+        "citations_competition": ["market_gaps.json lines 110-111"],
+        "revenue_potential": 6,
+        "evidence_revenue": "Puzzle ARPU $2-6/month, ad ARPU $2.99, strong hybrid potential",
+        "citations_revenue": ["performance_metrics.json lines 87-92", "monetization_analysis.json line 173"],
+        "total_market_score": 23
+      },
+      "player_alignment_scoring": {
+        "addresses_pain_points": 8,
+        "evidence_pain": "Addresses artificial difficulty spikes (58% complaint rate in puzzle games)",
+        "citations_pain": ["pain_points_analysis.json lines 101-105"],
+        "satisfies_unmet_needs": 8,
+        "evidence_needs": "Adaptive difficulty 78% demand score, personalized content requests",
+        "citations_needs": ["unmet_needs.json lines 91-116"],
+        "demographic_appeal": 5,
+        "evidence_demo": "Puzzle games have best retention (D7 8-12%), broad demographic appeal",
+        "citations_demo": ["performance_metrics.json lines 84-86"],
+        "total_player_score": 21
+      },
+      "competitive_advantage_scoring": {
+        "innovation_vs_existing": 8,
+        "evidence_innovation": "AI personalization entering near-term phase, 15-20% engagement improvement expected",
+        "citations_innovation": ["technology_roadmaps.json lines 48-49", "market_gaps.json line 106"],
+        "defensibility_moat": 4,
+        "evidence_moat": "AI algorithms and player data create some barriers, but technology replicable",
+        "citations_moat": ["strategic_opportunities.json lines 111"],
+        "first_mover_advantage": 4,
+        "evidence_timing": "AI personalization mainstream adoption window 2025-2026",
+        "citations_timing": ["technology_roadmaps.json line 112"],
+        "total_competitive_score": 16
+      },
+      "development_feasibility_scoring": {
+        "technical_complexity": 3,
+        "evidence_technical": "High complexity requiring ML expertise and real-time processing",
+        "citations_technical": ["strategic_opportunities.json lines 114-117"],
+        "time_to_market": 3,
+        "evidence_time": "12-18 months for AI development and integration",
+        "citations_time": ["strategic_opportunities.json line 71"],
+        "resource_requirements": 2,
+        "evidence_resources": "$10-15M for AI development and talent acquisition",
+        "citations_resources": ["strategic_opportunities.json line 84"],
+        "total_feasibility_score": 8
+      },
+      "strategic_fit_scoring": {
+        "platform_optimization": 4,
+        "evidence_platform": "Cross-platform AI data collection, good monetization on both iOS/Android",
+        "citations_platform": ["monetization_analysis.json", "performance_metrics.json"],
+        "monetization_alignment": 4,
+        "evidence_monetization": "Hybrid model with enhanced engagement, B2B licensing potential",
+        "citations_monetization": ["strategic_opportunities.json lines 119-124"],
+        "total_strategic_score": 8
+      },
+      "total_score": 76,
+      "classification": "Good Opportunity",
+      "comparable_games": [
+        "Candy Crush Saga (baseline match-3)",
+        "Gardenscapes (puzzle with meta progression)",
+        "Peak Brain Training (adaptive difficulty)"
+      ],
+      "success_metrics": [
+        "25% retention boost vs standard match-3",
+        "15-20% engagement improvement",
+        "Successful B2B licensing deals"
+      ]
+    },
+    "3": {
+      "concept_name": "CrossRealms: Universal Progression Platform",
+      "core_description": {
+        "gameplay_loop": "Cross-platform fantasy strategy game where players build kingdoms that persist across mobile, PC, and console with unified progression",
+        "genre": "Strategy",
+        "subgenre": "Cross-platform kingdom building with real-time strategy elements",
+        "unique_value_proposition": "True cross-platform progression with enhanced gameplay when switching between devices",
+        "target_demographic": "Multi-platform gamers, strategy enthusiasts, professionals who game on different devices",
+        "market_segment": "Cross-platform strategy gaming"
+      },
+      "market_potential_scoring": {
+        "market_size": 10,
+        "evidence": "Strategy $17.5B revenue, cross-platform demand affects 45-50% of mobile audience",
+        "citations": ["genre_rankings.json lines 28-35", "market_gaps.json lines 54-55"],
+        "growth_trajectory": 4,
+        "evidence_growth": "Strategy +14.5% downloads, cross-platform becoming standard expectation",
+        "citations_growth": ["genre_rankings.json line 33", "unmet_needs.json line 18"],
+        "competition_intensity": 3,
+        "evidence_competition": "Most games lack true cross-platform progression, medium competition",
+        "citations_competition": ["market_gaps.json line 60"],
+        "revenue_potential": 8,
+        "evidence_revenue": "Strategy ARPU $8-15/month, 40-60% engagement increase potential",
+        "citations_revenue": ["performance_metrics.json lines 47-51", "strategic_opportunities.json line 156"],
+        "total_market_score": 25
+      },
+      "player_alignment_scoring": {
+        "addresses_pain_points": 9,
+        "evidence_pain": "Cross-platform disparity 54% complaint rate, saves sync issues",
+        "citations_pain": ["pain_points_analysis.json lines 59-67", "unmet_needs.json lines 21-23"],
+        "satisfies_unmet_needs": 9,
+        "evidence_needs": "True cross-platform progression 92% demand score, critical urgency",
+        "citations_needs": ["unmet_needs.json lines 11-31"],
+        "demographic_appeal": 5,
+        "evidence_demo": "Strategy genre high engagement (12-18% DAU/MAU), professional appeal",
+        "citations_demo": ["performance_metrics.json lines 56"],
+        "total_player_score": 23
+      },
+      "competitive_advantage_scoring": {
+        "innovation_vs_existing": 7,
+        "evidence_innovation": "Unified production pipelines available, major publishers implementing but limited execution",
+        "citations_innovation": ["technology_roadmaps.json lines 74-80"],
+        "defensibility_moat": 3,
+        "evidence_moat": "Technical infrastructure creates some barriers but major platform holders may restrict",
+        "citations_moat": ["strategic_opportunities.json lines 177-180"],
+        "first_mover_advantage": 4,
+        "evidence_timing": "Cross-platform gaming standard expectation emerging now",
+        "citations_timing": ["unmet_needs.json line 18"],
+        "total_competitive_score": 14
+      },
+      "development_feasibility_scoring": {
+        "technical_complexity": 2,
+        "evidence_technical": "High complexity requiring platform negotiations and unified systems",
+        "citations_technical": ["strategic_opportunities.json lines 177-180"],
+        "time_to_market": 2,
+        "evidence_time": "18-24 months including platform negotiations",
+        "citations_time": ["strategic_opportunities.json line 133"],
+        "resource_requirements": 2,
+        "evidence_resources": "$15-25M for infrastructure and platform negotiations",
+        "citations_resources": ["strategic_opportunities.json line 146"],
+        "total_feasibility_score": 6
+      },
+      "strategic_fit_scoring": {
+        "platform_optimization": 5,
+        "evidence_platform": "Optimized for multi-platform revenue, higher LTV expected",
+        "citations_platform": ["strategic_opportunities.json line 156"],
+        "monetization_alignment": 4,
+        "evidence_monetization": "Infrastructure licensing potential, improved game metrics monetization",
+        "citations_monetization": ["strategic_opportunities.json lines 166-167"],
+        "total_strategic_score": 9
+      },
+      "total_score": 77,
+      "classification": "Good Opportunity",
+      "comparable_games": [
+        "Clash of Clans (mobile strategy baseline)",
+        "Fortnite (cross-platform progression)",
+        "Hearthstone (cross-platform card game)"
+      ],
+      "success_metrics": [
+        "40-60% increase in engagement",
+        "25% higher LTV",
+        "Successful platform partnerships"
+      ]
+    },
+    "4": {
+      "concept_name": "GuildCraft: Social Strategy Sandbox",
+      "core_description": {
+        "gameplay_loop": "Cooperative city-building strategy where guilds collaborate to build civilizations, share resources, and engage in diplomatic gameplay",
+        "genre": "Strategy",
+        "subgenre": "Social strategy with cooperative city-building",
+        "unique_value_proposition": "Deep meaningful social interactions with guild-based PvE content and diplomatic systems",
+        "target_demographic": "Strategy fans seeking social gameplay, particularly strong appeal to female gamers and Asian markets",
+        "market_segment": "Social strategy gaming"
+      },
+      "market_potential_scoring": {
+        "market_size": 10,
+        "evidence": "Strategy $17.5B revenue, simulation $6.1B revenue (social elements strong in both)",
+        "citations": ["genre_rankings.json lines 28-35", "genre_rankings.json lines 68-76"],
+        "growth_trajectory": 4,
+        "evidence_growth": "Strategy +14.5% downloads, simulation +0.4% growth with growing monetization",
+        "citations_growth": ["genre_rankings.json line 33", "genre_rankings.json line 73"],
+        "competition_intensity": 4,
+        "evidence_competition": "Basic guild systems, mostly send lives/gifts mechanics, room for innovation",
+        "citations_competition": ["market_gaps.json line 82"],
+        "revenue_potential": 7,
+        "evidence_revenue": "Strategy ARPU $8-15/month, social monetization boost 30% expected",
+        "citations_revenue": ["performance_metrics.json lines 47-51", "strategic_opportunities.json line 276"],
+        "total_market_score": 25
+      },
+      "player_alignment_scoring": {
+        "addresses_pain_points": 8,
+        "evidence_pain": "Forced social mechanics 31% complaint rate, lack meaningful multiplayer 47% requests",
+        "citations_pain": ["pain_points_analysis.json lines 114-126"],
+        "satisfies_unmet_needs": 8,
+        "evidence_needs": "Meaningful social features 84% demand score, guild systems high priority",
+        "citations_needs": ["unmet_needs.json lines 56-88"],
+        "demographic_appeal": 4,
+        "evidence_demo": "High value for female gamers, strong in Asian markets, gaming as social activity",
+        "citations_demo": ["market_gaps.json line 74", "strategic_opportunities.json line 290"],
+        "total_player_score": 20
+      },
+      "competitive_advantage_scoring": {
+        "innovation_vs_existing": 7,
+        "evidence_innovation": "Current social features feel forced, meaningful cooperation systems rare",
+        "citations_innovation": ["pain_points_analysis.json line 117", "unmet_needs.json lines 87-88"],
+        "defensibility_moat": 4,
+        "evidence_moat": "Network effects and community building create some barriers",
+        "citations_moat": ["Social gaming platform community advantages"],
+        "first_mover_advantage": 4,
+        "evidence_timing": "Gaming as primary social activity trend emerging, particularly Gen Z",
+        "citations_timing": ["strategic_opportunities.json line 290"],
+        "total_competitive_score": 15
+      },
+      "development_feasibility_scoring": {
+        "technical_complexity": 3,
+        "evidence_technical": "Medium-high complexity for social platform development",
+        "citations_technical": ["strategic_opportunities.json lines 258-268"],
+        "time_to_market": 3,
+        "evidence_time": "15-20 months for social gaming platform",
+        "citations_time": ["strategic_opportunities.json line 253"],
+        "resource_requirements": 3,
+        "evidence_resources": "$8-12M for social platform development",
+        "citations_resources": ["strategic_opportunities.json line 265"],
+        "total_feasibility_score": 9
+      },
+      "strategic_fit_scoring": {
+        "platform_optimization": 4,
+        "evidence_platform": "Cross-guild competition systems, social features work across platforms",
+        "citations_platform": ["strategic_opportunities.json lines 273-274"],
+        "monetization_alignment": 4,
+        "evidence_monetization": "Social monetization opportunities, platform licensing potential",
+        "citations_monetization": ["strategic_opportunities.json line 286"],
+        "total_strategic_score": 8
+      },
+      "total_score": 77,
+      "classification": "Good Opportunity", 
+      "comparable_games": [
+        "Clash of Clans (guild mechanics baseline)",
+        "Animal Crossing (social cooperation)",
+        "SimCity BuildIt (city building with social elements)"
+      ],
+      "success_metrics": [
+        "50-70% increase in retention",
+        "30% boost in social monetization",
+        "Strong community engagement metrics"
+      ]
+    },
+    "5": {
+      "concept_name": "ClassicPlus: Premium Traditional Games Hub",
+      "core_description": {
+        "gameplay_loop": "Premium subscription platform offering enhanced versions of classic games (chess, poker, solitaire, word games) with tournaments, AI tutoring, and social features",
+        "genre": "Classic Games",
+        "subgenre": "Premium traditional/board/card games platform",
+        "unique_value_proposition": "High-quality traditional games with modern features, ad-free, targeting quality-seeking players",
+        "target_demographic": "Millennials and older demographics seeking premium gaming experiences, classic game enthusiasts",
+        "market_segment": "Premium classic gaming"
+      },
+      "market_potential_scoring": {
+        "market_size": 6,
+        "evidence": "Classic games show strong D28 retention (3-7%), niche but profitable market",
+        "citations": ["performance_metrics.json lines 182-202"],
+        "growth_trajectory": 3,
+        "evidence_growth": "Stable market, Middle East showing strong preference for classic games",
+        "citations_growth": ["performance_metrics.json lines 237-239"],
+        "competition_intensity": 5,
+        "evidence_competition": "Limited premium classic game options, mainly free-to-play dominance",
+        "citations_competition": ["Limited premium mobile options noted in market_gaps.json"],
+        "revenue_potential": 8,
+        "evidence_revenue": "Classic games ARPU $4-10/month, ARPPU $60+ daily, strong conversion 1.5-3%",
+        "citations_revenue": ["performance_metrics.json lines 191-196"],
+        "total_market_score": 22
+      },
+      "player_alignment_scoring": {
+        "addresses_pain_points": 7,
+        "evidence_pain": "Addresses intrusive monetization complaints, particularly from older demographics",
+        "citations_pain": ["pain_points_analysis.json lines 137-145"],
+        "satisfies_unmet_needs": 7,
+        "evidence_needs": "Premium ad-free options 68% demand score, older demographics willing to pay $10-20",
+        "citations_needs": ["unmet_needs.json lines 155-170"],
+        "demographic_appeal": 4,
+        "evidence_demo": "Strong appeal to Gen X/Boomers (highest per-transaction amounts), classic game preference",
+        "citations_demo": ["pain_points_analysis.json lines 141-145"],
+        "total_player_score": 18
+      },
+      "competitive_advantage_scoring": {
+        "innovation_vs_existing": 6,
+        "evidence_innovation": "Premium classic gaming platform with modern features, limited direct competition",
+        "citations_innovation": ["strategic_opportunities.json line 230"],
+        "defensibility_moat": 3,
+        "evidence_moat": "Content curation and community building, but games themselves are not proprietary",
+        "citations_moat": ["Content quality and curation advantages"],
+        "first_mover_advantage": 4,
+        "evidence_timing": "Growing premium mobile gaming demand, limited high-quality options",
+        "citations_timing": ["strategic_opportunities.json line 192"],
+        "total_competitive_score": 13
+      },
+      "development_feasibility_scoring": {
+        "technical_complexity": 4,
+        "evidence_technical": "Moderate complexity, leveraging existing game rules with enhanced features",
+        "citations_technical": ["Classic games have established mechanics"],
+        "time_to_market": 4,
+        "evidence_time": "12-15 months for premium marketplace platform",
+        "citations_time": ["strategic_opportunities.json line 190"],
+        "resource_requirements": 4,
+        "evidence_resources": "$5-10M for platform development and content acquisition",
+        "citations_resources": ["strategic_opportunities.json line 204"],
+        "total_feasibility_score": 12
+      },
+      "strategic_fit_scoring": {
+        "platform_optimization": 5,
+        "evidence_platform": "iOS users 2-3x higher willingness to pay, perfect fit for premium model",
+        "citations_platform": ["strategic_opportunities.json line 230"],
+        "monetization_alignment": 5,
+        "evidence_monetization": "Subscription model aligned with premium trends, clear value proposition",
+        "citations_monetization": ["strategic_opportunities.json lines 213-214"],
+        "total_strategic_score": 10
+      },
+      "total_score": 75,
+      "classification": "Good Opportunity",
+      "comparable_games": [
+        "Chess.com (premium chess platform)",
+        "Apple Arcade (premium game subscription)",
+        "Microsoft Solitaire Collection (freemium classic games)"
+      ],
+      "success_metrics": [
+        "High ARPU $20-50/month",
+        "Strong retention 60%+ D30",
+        "Premium subscriber growth"
+      ]
+    },
+    "6": {
+      "concept_name": "MergeCraft: AI-Enhanced Merge Builder",
+      "core_description": {
+        "gameplay_loop": "Merge-3 mechanics combined with city building where AI suggests optimal merges and building placements based on player goals and preferences",
+        "genre": "Simulation",
+        "subgenre": "Merge-building hybrid with AI assistance",
+        "unique_value_proposition": "Merge mechanics with strategic depth, AI assistance for optimal play without automation",
+        "target_demographic": "Casual to mid-core players seeking relaxing but strategic gameplay",
+        "market_segment": "Hybrid casual with merge mechanics"
+      },
+      "market_potential_scoring": {
+        "market_size": 7,
+        "evidence": "Simulation $6.1B revenue (7.4% market share), merge games showing strong ad ARPU $14.83",
+        "citations": ["genre_rankings.json lines 68-76", "monetization_analysis.json line 140"],
+        "growth_trajectory": 4,
+        "evidence_growth": "Simulation +0.4% growth with growing monetization efficiency",
+        "citations_growth": ["genre_rankings.json line 73"],
+        "competition_intensity": 3,
+        "evidence_competition": "Merge genre saturated but AI enhancement provides differentiation",
+        "citations_competition": ["Merge game market mature but AI personalization gap exists"],
+        "revenue_potential": 8,
+        "evidence_revenue": "Merge-3 ARPU $14.83, simulation ARPU $1-4/month, high ad tolerance",
+        "citations_revenue": ["monetization_analysis.json line 140", "performance_metrics.json lines 129-134"],
+        "total_market_score": 22
+      },
+      "player_alignment_scoring": {
+        "addresses_pain_points": 6,
+        "evidence_pain": "Addresses excessive wait times (73% simulation complaints) with AI optimization",
+        "citations_pain": ["pain_points_analysis.json lines 93-99"],
+        "satisfies_unmet_needs": 7,
+        "evidence_needs": "Adaptive difficulty 78% demand, economic depth simulation requests",
+        "citations_needs": ["unmet_needs.json lines 91-116", "unmet_needs.json line 192"],
+        "demographic_appeal": 4,
+        "evidence_demo": "Simulation strong casual appeal, merge games broad demographic reach",
+        "citations_demo": ["genre_rankings.json line 75"],
+        "total_player_score": 17
+      },
+      "competitive_advantage_scoring": {
+        "innovation_vs_existing": 6,
+        "evidence_innovation": "AI-enhanced merge mechanics uncommon, meaningful differentiation possible",
+        "citations_innovation": ["technology_roadmaps.json AI personalization opportunities"],
+        "defensibility_moat": 3,
+        "evidence_moat": "AI algorithms provide some advantage but merge mechanics well-known",
+        "citations_moat": ["AI implementation creates temporary advantages"],
+        "first_mover_advantage": 3,
+        "evidence_timing": "AI integration timeline favorable but not critical timing window",
+        "citations_timing": ["technology_roadmaps.json 2025-2026 AI adoption"],
+        "total_competitive_score": 12
+      },
+      "development_feasibility_scoring": {
+        "technical_complexity": 3,
+        "evidence_technical": "Complex AI integration with proven merge mechanics",
+        "citations_technical": ["Merge mechanics established, AI integration challenging"],
+        "time_to_market": 4,
+        "evidence_time": "9-12 months for AI-enhanced merge game",
+        "citations_time": ["Standard development timeline with AI integration"],
+        "resource_requirements": 3,
+        "evidence_resources": "Moderate investment for AI development and game creation",
+        "citations_resources": ["AI development requires significant but manageable investment"],
+        "total_feasibility_score": 10
+      },
+      "strategic_fit_scoring": {
+        "platform_optimization": 4,
+        "evidence_platform": "Strong on both iOS and Android, good ad monetization potential",
+        "citations_platform": ["monetization_analysis.json merge performance"],
+        "monetization_alignment": 4,
+        "evidence_monetization": "Hybrid IAP + IAA model, strong ad performance in merge games",
+        "citations_monetization": ["monetization_analysis.json lines 139-143"],
+        "total_strategic_score": 8
+      },
+      "total_score": 69,
+      "classification": "Moderate Potential",
+      "comparable_games": [
+        "Merge Dragons (baseline merge gameplay)",
+        "Two Dots (merge with strategic elements)",
+        "SimCity BuildIt (city building simulation)"
+      ],
+      "success_metrics": [
+        "Above-average retention for simulation genre",
+        "Strong ad engagement metrics",
+        "AI recommendation adoption rates"
+      ]
+    },
+    "7": {
+      "concept_name": "OfflineRPG: Data-Light Adventure",
+      "core_description": {
+        "gameplay_loop": "Turn-based RPG optimized for offline play with local AI opponents, procedural content generation, and sync-when-connected progression",
+        "genre": "RPG",
+        "subgenre": "Offline-first turn-based RPG",
+        "unique_value_proposition": "Full RPG experience playable offline with smart data usage and emerging market optimization",
+        "target_demographic": "RPG fans in emerging markets, commuters, travelers, data-conscious players",
+        "market_segment": "Emerging market and offline-optimized gaming"
+      },
+      "market_potential_scoring": {
+        "market_size": 9,
+        "evidence": "RPG $16.8B revenue, emerging markets showing +13% Latin America, +18% Middle East growth",
+        "citations": ["genre_rankings.json lines 38-45", "strategic_opportunities.json lines 324-325"],
+        "growth_trajectory": 5,
+        "evidence_growth": "Strong emerging market growth, Latin America +13%, Middle East +18%",
+        "citations_growth": ["strategic_opportunities.json lines 324-325"],
+        "competition_intensity": 5,
+        "evidence_competition": "Limited offline modes in few games, clear market gap",
+        "citations_competition": ["market_gaps.json lines 159-160"],
+        "revenue_potential": 5,
+        "evidence_revenue": "RPG ARPU $6-12/month, emerging markets price-sensitive but volume potential",
+        "citations_revenue": ["performance_metrics.json lines 68-71", "strategic_opportunities.json line 344"],
+        "total_market_score": 24
+      },
+      "player_alignment_scoring": {
+        "addresses_pain_points": 7,
+        "evidence_pain": "Addresses connectivity requirements frustration, mobile platform neglect",
+        "citations_pain": ["pain_points_analysis.json lines 50-67"],
+        "satisfies_unmet_needs": 7,
+        "evidence_needs": "Offline & low-connection gameplay 73% demand score",
+        "citations_needs": ["unmet_needs.json lines 119-135"],
+        "demographic_appeal": 4,
+        "evidence_demo": "RPG strong retention (D28 3-6%), emerging market appeal",
+        "citations_demo": ["performance_metrics.json lines 64-66"],
+        "total_player_score": 18
+      },
+      "competitive_advantage_scoring": {
+        "innovation_vs_existing": 7,
+        "evidence_innovation": "Most mobile games require constant connection, clear innovation opportunity",
+        "citations_innovation": ["market_gaps.json line 150"],
+        "defensibility_moat": 3,
+        "evidence_moat": "Technical implementation and local AI provide some advantages",
+        "citations_moat": ["Offline architecture creates some barriers"],
+        "first_mover_advantage": 4,
+        "evidence_timing": "Emerging market growth strong, data consciousness increasing",
+        "citations_timing": ["strategic_opportunities.json line 344"],
+        "total_competitive_score": 14
+      },
+      "development_feasibility_scoring": {
+        "technical_complexity": 3,
+        "evidence_technical": "Complex offline architecture, local AI, data sync challenges",
+        "citations_technical": ["market_gaps.json lines 161-166"],
+        "time_to_market": 3,
+        "evidence_time": "12-18 months for emerging market solutions",
+        "citations_time": ["strategic_opportunities.json line 306"],
+        "resource_requirements": 4,
+        "evidence_resources": "$6-10M for market-specific development",
+        "citations_resources": ["strategic_opportunities.json line 319"],
+        "total_feasibility_score": 10
+      },
+      "strategic_fit_scoring": {
+        "platform_optimization": 4,
+        "evidence_platform": "Android optimization for emerging markets, data-light design",
+        "citations_platform": ["strategic_opportunities.json lines 317-318"],
+        "monetization_alignment": 3,
+        "evidence_monetization": "Ad-supported model for emerging markets, local payment integration needed",
+        "citations_monetization": ["strategic_opportunities.json lines 349-352"],
+        "total_strategic_score": 7
+      },
+      "total_score": 73,
+      "classification": "Good Opportunity",
+      "comparable_games": [
+        "Final Fantasy Tactics (offline turn-based RPG)",
+        "Knights of Pen & Paper (offline RPG with humor)",
+        "Eternium (offline action RPG)"
+      ],
+      "success_metrics": [
+        "High user acquisition in target regions",
+        "Strong organic growth",
+        "Successful local partnerships"
+      ]
+    },
+    "8": {
+      "concept_name": "PremiumPuzzle: Subscription Match Collection",
+      "core_description": {
+        "gameplay_loop": "Premium subscription offering curated collection of match-3, word, and logic puzzles with no ads, no energy systems, and exclusive content",
+        "genre": "Puzzle",
+        "subgenre": "Premium puzzle game subscription service",
+        "unique_value_proposition": "Ad-free puzzle gaming with unlimited play and exclusive content for quality-seeking puzzle fans",
+        "target_demographic": "Millennials and older puzzle enthusiasts willing to pay for premium experience",
+        "market_segment": "Premium puzzle gaming"
+      },
+      "market_potential_scoring": {
+        "market_size": 9,
+        "evidence": "Puzzle $12.2B revenue, 20% download share, strong monetization efficiency",
+        "citations": ["genre_rankings.json lines 48-56"],
+        "growth_trajectory": 4,
+        "evidence_growth": "Puzzle positive YoY growth, strong hybrid monetization adoption",
+        "citations_growth": ["genre_rankings.json line 51"],
+        "competition_intensity": 4,
+        "evidence_competition": "Apple Arcade only major premium competitor, clear market gap",
+        "citations_competition": ["strategic_opportunities.json line 230"],
+        "revenue_potential": 6,
+        "evidence_revenue": "Puzzle ARPU $2-6/month, 29% IAP spenders would pay for ad-free",
+        "citations_revenue": ["performance_metrics.json lines 87-92", "monetization_analysis.json line 88"],
+        "total_market_score": 23
+      },
+      "player_alignment_scoring": {
+        "addresses_pain_points": 9,
+        "evidence_pain": "Directly addresses energy/lives systems (68% puzzle complaints), intrusive monetization",
+        "citations_pain": ["pain_points_analysis.json lines 34-41"],
+        "satisfies_unmet_needs": 7,
+        "evidence_needs": "Premium ad-free options 68% demand score, Millennials willing to pay $5-10",
+        "citations_needs": ["unmet_needs.json lines 155-169"],
+        "demographic_appeal": 5,
+        "evidence_demo": "Puzzle best D7 retention, broad appeal, Millennial premium willingness",
+        "citations_demo": ["performance_metrics.json line 85"],
+        "total_player_score": 21
+      },
+      "competitive_advantage_scoring": {
+        "innovation_vs_existing": 6,
+        "evidence_innovation": "Premium puzzle subscription rare, clear differentiation from F2P market",
+        "citations_innovation": ["Limited premium mobile options"],
+        "defensibility_moat": 3,
+        "evidence_moat": "Content curation and subscription base provide some advantages",
+        "citations_moat": ["Subscription model creates user investment"],
+        "first_mover_advantage": 4,
+        "evidence_timing": "Premium mobile gaming demand growing, limited options",
+        "citations_timing": ["strategic_opportunities.json line 192"],
+        "total_competitive_score": 13
+      },
+      "development_feasibility_scoring": {
+        "technical_complexity": 4,
+        "evidence_technical": "Standard puzzle development with subscription platform",
+        "citations_technical": ["Proven puzzle mechanics with subscription overlay"],
+        "time_to_market": 4,
+        "evidence_time": "6-9 months for puzzle collection and subscription platform",
+        "citations_time": ["Faster than complex new game development"],
+        "resource_requirements": 4,
+        "evidence_resources": "Moderate investment for content creation and platform",
+        "citations_resources": ["Lower than complex new IP development"],
+        "total_feasibility_score": 12
+      },
+      "strategic_fit_scoring": {
+        "platform_optimization": 5,
+        "evidence_platform": "iOS premium focus ideal, Android growing premium segment",
+        "citations_platform": ["monetization_analysis.json lines 176-178"],
+        "monetization_alignment": 5,
+        "evidence_monetization": "Perfect alignment with premium trends, subscription model growth",
+        "citations_monetization": ["monetization_analysis.json lines 147-164"],
+        "total_strategic_score": 10
+      },
+      "total_score": 79,
+      "classification": "Good Opportunity",
+      "comparable_games": [
+        "Apple Arcade puzzle collection",
+        "NYT Games subscription",
+        "Candy Crush Saga (F2P baseline to differentiate from)"
+      ],
+      "success_metrics": [
+        "Low churn rate <20% monthly",
+        "High engagement with premium content",
+        "Strong word-of-mouth growth"
+      ]
+    },
+    "9": {
+      "concept_name": "StrategyAI: Adaptive 4X Mobile",
+      "core_description": {
+        "gameplay_loop": "4X strategy game (explore, expand, exploit, exterminate) with AI that adapts opponent difficulty, suggests strategic decisions, and balances gameplay in real-time",
+        "genre": "Strategy",
+        "subgenre": "4X strategy with AI assistance and adaptive difficulty",
+        "unique_value_proposition": "Deep 4X strategy accessible to casual players through AI assistance while maintaining depth for hardcore players",
+        "target_demographic": "Strategy enthusiasts and players intimidated by complex 4X games",
+        "market_segment": "AI-enhanced strategy gaming"
+      },
+      "market_potential_scoring": {
+        "market_size": 10,
+        "evidence": "Strategy $17.5B revenue, 4X strategy subgenre leads strategy genre",
+        "citations": ["genre_rankings.json lines 28-35"],
+        "growth_trajectory": 4,
+        "evidence_growth": "Strategy +14.5% downloads, 4X subgenre specifically noted as leader",
+        "citations_growth": ["genre_rankings.json line 33", "genre_rankings.json line 35"],
+        "competition_intensity": 3,
+        "evidence_competition": "4X strategy on mobile limited, AI assistance rare",
+        "citations_competition": ["unmet_needs.json line 174 - true RTS gameplay wanted"],
+        "revenue_potential": 8,
+        "evidence_revenue": "Strategy ARPU $8-15/month, 4X typically higher ARPU than base building",
+        "citations_revenue": ["performance_metrics.json lines 47-51"],
+        "total_market_score": 25
+      },
+      "player_alignment_scoring": {
+        "addresses_pain_points": 7,
+        "evidence_pain": "Addresses complexity barriers, artificial difficulty spikes",
+        "citations_pain": ["pain_points_analysis.json lines 101-105"],
+        "satisfies_unmet_needs": 8,
+        "evidence_needs": "True RTS gameplay demand, adaptive difficulty 78% demand score",
+        "citations_needs": ["unmet_needs.json line 174", "unmet_needs.json lines 91-116"],
+        "demographic_appeal": 4,
+        "evidence_demo": "Strategy high engagement, AI assistance broadens appeal",
+        "citations_demo": ["performance_metrics.json lines 56"],
+        "total_player_score": 19
+      },
+      "competitive_advantage_scoring": {
+        "innovation_vs_existing": 8,
+        "evidence_innovation": "AI-assisted 4X strategy rare, meaningful innovation in complex genre",
+        "citations_innovation": ["technology_roadmaps.json AI personalization opportunities"],
+        "defensibility_moat": 4,
+        "evidence_moat": "AI algorithms and 4X complexity create barriers to entry",
+        "citations_moat": ["Complex AI + game mechanics create development barriers"],
+        "first_mover_advantage": 4,
+        "evidence_timing": "AI assistance entering near-term phase, mobile 4X underserved",
+        "citations_timing": ["technology_roadmaps.json lines 48-49"],
+        "total_competitive_score": 16
+      },
+      "development_feasibility_scoring": {
+        "technical_complexity": 2,
+        "evidence_technical": "Very complex - 4X game systems plus AI integration",
+        "citations_technical": ["4X games inherently complex, AI adds significant complexity"],
+        "time_to_market": 2,
+        "evidence_time": "18+ months for complex 4X with AI systems",
+        "citations_time": ["Complex strategy games require extended development"],
+        "resource_requirements": 2,
+        "evidence_resources": "High investment required for 4X development plus AI systems",
+        "citations_resources": ["4X + AI development requires significant team and budget"],
+        "total_feasibility_score": 6
+      },
+      "strategic_fit_scoring": {
+        "platform_optimization": 4,
+        "evidence_platform": "Strategy performs well on both platforms, cross-platform potential",
+        "citations_platform": ["Strategy genre strong performance across platforms"],
+        "monetization_alignment": 4,
+        "evidence_monetization": "Premium IAP model fits strategy genre expectations",
+        "citations_monetization": ["Strategy monetization patterns established"],
+        "total_strategic_score": 8
+      },
+      "total_score": 74,
+      "classification": "Good Opportunity",
+      "comparable_games": [
+        "Civilization VI (PC 4X baseline)",
+        "Polytopia (simplified mobile 4X)",
+        "Rise of Kingdoms (strategy with some 4X elements)"
+      ],
+      "success_metrics": [
+        "Higher strategy retention than average",
+        "Successful AI adoption metrics",
+        "Cross-demographic appeal measurement"
+      ]
+    },
+    "10": {
+      "concept_name": "CoopRPG: Meaningful Multiplayer Adventure",
+      "core_description": {
+        "gameplay_loop": "RPG with real-time cooperative dungeon clearing, shared world exploration, and mentor-newcomer pairing systems for meaningful social gameplay",
+        "genre": "RPG",
+        "subgenre": "Cooperative multiplayer RPG with social systems",
+        "unique_value_proposition": "True cooperative RPG gameplay with meaningful social connections and mentorship systems",
+        "target_demographic": "RPG fans seeking social gameplay, particularly appeals to female gamers and community-oriented players",
+        "market_segment": "Social RPG gaming"
+      },
+      "market_potential_scoring": {
+        "market_size": 9,
+        "evidence": "RPG $16.8B revenue, social features high value for female gamers",
+        "citations": ["genre_rankings.json lines 38-45", "strategic_opportunities.json line 292"],
+        "growth_trajectory": 3,
+        "evidence_growth": "RPG declining but stable revenue base, social gaming growing",
+        "citations_growth": ["genre_rankings.json line 41"],
+        "competition_intensity": 4,
+        "evidence_competition": "Lack meaningful multiplayer noted in 47% of strategy/RPG requests",
+        "citations_competition": ["pain_points_analysis.json lines 122-125"],
+        "revenue_potential": 7,
+        "evidence_revenue": "RPG ARPU $6-12/month, social monetization boost potential",
+        "citations_revenue": ["performance_metrics.json lines 68-71"],
+        "total_market_score": 23
+      },
+      "player_alignment_scoring": {
+        "addresses_pain_points": 8,
+        "evidence_pain": "Lack meaningful multiplayer 47% requests, forced social mechanics complaints",
+        "citations_pain": ["pain_points_analysis.json lines 122-125", "pain_points_analysis.json lines 114-119"],
+        "satisfies_unmet_needs": 8,
+        "evidence_needs": "Meaningful social features 84% demand score, cooperative gameplay requests",
+        "citations_needs": ["unmet_needs.json lines 56-88"],
+        "demographic_appeal": 4,
+        "evidence_demo": "RPG strong retention, high value for female gamers, social appeal",
+        "citations_demo": ["performance_metrics.json lines 64-66", "strategic_opportunities.json line 292"],
+        "total_player_score": 20
+      },
+      "competitive_advantage_scoring": {
+        "innovation_vs_existing": 7,
+        "evidence_innovation": "True cooperative RPG rare on mobile, mentorship systems innovative",
+        "citations_innovation": ["unmet_needs.json lines 79-82"],
+        "defensibility_moat": 4,
+        "evidence_moat": "Network effects from social systems, community building advantages",
+        "citations_moat": ["Social RPG communities create switching costs"],
+        "first_mover_advantage": 4,
+        "evidence_timing": "Gaming as primary social activity for Gen Z, timing favorable",
+        "citations_timing": ["strategic_opportunities.json line 290"],
+        "total_competitive_score": 15
+      },
+      "development_feasibility_scoring": {
+        "technical_complexity": 3,
+        "evidence_technical": "Complex multiplayer systems, social features, and RPG mechanics",
+        "citations_technical": ["Real-time multiplayer RPG technically challenging"],
+        "time_to_market": 3,
+        "evidence_time": "15-18 months for multiplayer RPG with social systems",
+        "citations_time": ["RPG development plus multiplayer infrastructure time"],
+        "resource_requirements": 3,
+        "evidence_resources": "Significant investment for multiplayer infrastructure and content",
+        "citations_resources": ["Multiplayer RPG requires substantial development resources"],
+        "total_feasibility_score": 9
+      },
+      "strategic_fit_scoring": {
+        "platform_optimization": 4,
+        "evidence_platform": "Cross-platform social features valuable, RPG works well on mobile",
+        "citations_platform": ["Social features benefit from cross-platform connectivity"],
+        "monetization_alignment": 4,
+        "evidence_monetization": "Social monetization opportunities, RPG proven monetization patterns",
+        "citations_monetization": ["RPG monetization established, social features enhance"],
+        "total_strategic_score": 8
+      },
+      "total_score": 75,
+      "classification": "Good Opportunity",
+      "comparable_games": [
+        "Final Fantasy XIV (cooperative MMO RPG)",
+        "Monster Hunter Stories (cooperative monster hunting)",
+        "Dragalia Lost (cooperative RPG elements)"
+      ],
+      "success_metrics": [
+        "Strong social engagement metrics",
+        "Mentorship system adoption",
+        "Higher retention than solo RPGs"
+      ]
+    },
+    "11": {
+      "concept_name": "EthicalCasino: Skill-Based Social Casino",
+      "core_description": {
+        "gameplay_loop": "Casino-style games with skill-based elements, transparent odds, spending limits, and educational components about probability and risk management",
+        "genre": "Casino",
+        "subgenre": "Ethical social casino with skill elements",
+        "unique_value_proposition": "Casino gaming with built-in responsible gaming features and skill-based progression",
+        "target_demographic": "Casino game fans seeking more ethical and skill-based experiences",
+        "market_segment": "Responsible casino gaming"
+      },
+      "market_potential_scoring": {
+        "market_size": 9,
+        "evidence": "Casino $11.7B revenue (14.3% market share), very high monetization efficiency",
+        "citations": ["genre_rankings.json lines 58-66"],
+        "growth_trajectory": 3,
+        "evidence_growth": "Casino stable YoY growth, consistent performance",
+        "citations_growth": ["genre_rankings.json line 61"],
+        "competition_intensity": 4,
+        "evidence_competition": "Traditional casino games dominant, ethical alternatives rare",
+        "citations_competition": ["unmet_needs.json lines 198-201"],
+        "revenue_potential": 9,
+        "evidence_revenue": "Casino ARPU $15-30/month, ARPPU $80-120, very high monetization",
+        "citations_revenue": ["performance_metrics.json lines 108-112"],
+        "total_market_score": 25
+      },
+      "player_alignment_scoring": {
+        "addresses_pain_points": 9,
+        "evidence_pain": "Addresses aggressive IAP pressure (73% casino complaints), $22,000+ spending concerns",
+        "citations_pain": ["pain_points_analysis.json lines 25-32"],
+        "satisfies_unmet_needs": 8,
+        "evidence_needs": "Skill-based elements requested, responsible gaming, educational components",
+        "citations_needs": ["unmet_needs.json lines 198-201"],
+        "demographic_appeal": 4,
+        "evidence_demo": "Casino best stickiness (20-30% DAU/MAU), appeals to older demographics",
+        "citations_demo": ["performance_metrics.json lines 118-119"],
+        "total_player_score": 21
+      },
+      "competitive_advantage_scoring": {
+        "innovation_vs_existing": 8,
+        "evidence_innovation": "Ethical casino gaming rare, skill-based casino hybrid innovative",
+        "citations_innovation": ["unmet_needs.json line 198"],
+        "defensibility_moat": 3,
+        "evidence_moat": "Brand positioning and responsible gaming features provide some differentiation",
+        "citations_moat": ["Ethical brand positioning creates some barriers"],
+        "first_mover_advantage": 4,
+        "evidence_timing": "Growing awareness of gambling-like mechanics regulation",
+        "citations_timing": ["pain_points_analysis.json line 176"],
+        "total_competitive_score": 15
+      },
+      "development_feasibility_scoring": {
+        "technical_complexity": 4,
+        "evidence_technical": "Standard casino game mechanics with additional skill and safety features",
+        "citations_technical": ["Casino mechanics established, safety features add complexity"],
+        "time_to_market": 4,
+        "evidence_time": "9-12 months for ethical casino game with safety features",
+        "citations_time": ["Casino game development timeline with additional features"],
+        "resource_requirements": 3,
+        "evidence_resources": "Moderate to high investment for responsible gaming systems",
+        "citations_resources": ["Responsible gaming systems require development investment"],
+        "total_feasibility_score": 11
+      },
+      "strategic_fit_scoring": {
+        "platform_optimization": 4,
+        "evidence_platform": "Casino performs well on both platforms, high monetization potential",
+        "citations_platform": ["Casino genre high performance across platforms"],
+        "monetization_alignment": 3,
+        "evidence_monetization": "Ethical approach may limit some monetization but builds sustainability",
+        "citations_monetization": ["Responsible gaming limits aggressive monetization"],
+        "total_strategic_score": 7
+      },
+      "total_score": 79,
+      "classification": "Good Opportunity",
+      "comparable_games": [
+        "Slotomania (traditional social casino)",
+        "PokerStars (skill-based card games)",
+        "Responsible gaming implementations"
+      ],
+      "success_metrics": [
+        "Lower average spend per user but higher retention",
+        "Strong responsible gaming metrics",
+        "Brand differentiation measurement"
+      ]
+    },
+    "12": {
+      "concept_name": "CrossPlatform Puzzler: Unified Match Experience",
+      "core_description": {
+        "gameplay_loop": "Match-3 puzzle game with true cross-platform progression, enhanced features on larger screens, and seamless device switching",
+        "genre": "Puzzle",
+        "subgenre": "Cross-platform match-3 with device optimization",
+        "unique_value_proposition": "Same puzzle game optimized for each platform with unified progression and cross-device competitive features",
+        "target_demographic": "Multi-device puzzle players, commuters, cross-platform gamers",
+        "market_segment": "Cross-platform puzzle gaming"
+      },
+      "market_potential_scoring": {
+        "market_size": 9,
+        "evidence": "Puzzle $12.2B revenue, cross-platform demand 92% score affecting 45-50% of players",
+        "citations": ["genre_rankings.json lines 48-56", "market_gaps.json lines 54-55"],
+        "growth_trajectory": 4,
+        "evidence_growth": "Puzzle positive YoY growth, cross-platform becoming standard",
+        "citations_growth": ["genre_rankings.json line 51", "unmet_needs.json line 18"],
+        "competition_intensity": 3,
+        "evidence_competition": "Most puzzle games lack true cross-platform progression",
+        "citations_competition": ["market_gaps.json line 60"],
+        "revenue_potential": 6,
+        "evidence_revenue": "Puzzle ARPU $2-6/month, cross-platform could expand engagement significantly",
+        "citations_revenue": ["performance_metrics.json lines 87-92", "strategic_opportunities.json line 173"],
+        "total_market_score": 22
+      },
+      "player_alignment_scoring": {
+        "addresses_pain_points": 8,
+        "evidence_pain": "Save sync issues, progression isolation between devices",
+        "citations_pain": ["unmet_needs.json lines 21-23"],
+        "satisfies_unmet_needs": 9,
+        "evidence_needs": "True cross-platform progression 92% demand score, critical urgency",
+        "citations_needs": ["unmet_needs.json lines 11-31"],
+        "demographic_appeal": 5,
+        "evidence_demo": "Puzzle best retention across demographics, broad appeal",
+        "citations_demo": ["performance_metrics.json lines 84-86"],
+        "total_player_score": 22
+      },
+      "competitive_advantage_scoring": {
+        "innovation_vs_existing": 6,
+        "evidence_innovation": "Cross-platform puzzle gaming limited, clear differentiation opportunity",
+        "citations_innovation": ["Most puzzle games mobile-only with limited cross-platform"],
+        "defensibility_moat": 3,
+        "evidence_moat": "Cross-platform infrastructure provides some technical barriers",
+        "citations_moat": ["Cross-platform technology creates development barriers"],
+        "first_mover_advantage": 4,
+        "evidence_timing": "Cross-platform standard expectation emerging, good timing",
+        "citations_timing": ["unmet_needs.json line 18"],
+        "total_competitive_score": 13
+      },
+      "development_feasibility_scoring": {
+        "technical_complexity": 3,
+        "evidence_technical": "Cross-platform infrastructure complex, puzzle mechanics standard",
+        "citations_technical": ["Cross-platform development adds significant complexity"],
+        "time_to_market": 4,
+        "evidence_time": "12-15 months for cross-platform puzzle with full progression",
+        "citations_time": ["Cross-platform development timeline"],
+        "resource_requirements": 3,
+        "evidence_resources": "Moderate to high investment for cross-platform infrastructure",
+        "citations_resources": ["Cross-platform requires significant infrastructure investment"],
+        "total_feasibility_score": 10
+      },
+      "strategic_fit_scoring": {
+        "platform_optimization": 5,
+        "evidence_platform": "Optimized for cross-platform revenue, benefits all platforms",
+        "citations_platform": ["Cross-platform optimization benefits all platforms"],
+        "monetization_alignment": 4,
+        "evidence_monetization": "Standard puzzle monetization with cross-platform engagement boost",
+        "citations_monetization": ["Cross-platform enhances standard puzzle monetization"],
+        "total_strategic_score": 9
+      },
+      "total_score": 76,
+      "classification": "Good Opportunity",
+      "comparable_games": [
+        "Candy Crush Saga (mobile puzzle baseline)",
+        "Microsoft Solitaire Collection (cross-platform casual)",
+        "Tetris Effect Connected (cross-platform puzzle)"
+      ],
+      "success_metrics": [
+        "High cross-platform usage rates",
+        "Increased session frequency",
+        "Strong retention on all platforms"
+      ]
+    },
+    "13": {
+      "concept_name": "LocalCulture Strategy: Regional 4X",
+      "core_description": {
+        "gameplay_loop": "4X strategy game featuring historical civilizations and cultural elements specific to emerging markets (Latin America, Middle East, Southeast Asia)",
+        "genre": "Strategy",
+        "subgenre": "Culturally-adapted 4X strategy for emerging markets",
+        "unique_value_proposition": "Strategy game celebrating local cultures and histories with region-specific content and payment methods",
+        "target_demographic": "Strategy players in emerging markets seeking culturally relevant content",
+        "market_segment": "Emerging market localized gaming"
+      },
+      "market_potential_scoring": {
+        "market_size": 8,
+        "evidence": "Strategy $17.5B globally, emerging markets +13% Latin America, +18% Middle East growth",
+        "citations": ["genre_rankings.json lines 28-35", "strategic_opportunities.json lines 324-325"],
+        "growth_trajectory": 5,
+        "evidence_growth": "Fastest growing regions, +13% Latin America, +18% Middle East",
+        "citations_growth": ["strategic_opportunities.json lines 324-325"],
+        "competition_intensity": 5,
+        "evidence_competition": "Limited localized content from global developers",
+        "citations_competition": ["strategic_opportunities.json line 345"],
+        "revenue_potential": 5,
+        "evidence_revenue": "Strategy ARPU $8-15/month, emerging markets price-sensitive but growing",
+        "citations_revenue": ["performance_metrics.json lines 47-51", "strategic_opportunities.json line 346"],
+        "total_market_score": 23
+      },
+      "player_alignment_scoring": {
+        "addresses_pain_points": 6,
+        "evidence_pain": "Limited cultural representation, lack of local content relevance",
+        "citations_pain": ["strategic_opportunities.json lines 344-345"],
+        "satisfies_unmet_needs": 7,
+        "evidence_needs": "Culturally relevant content, local payment methods, data-light designs",
+        "citations_needs": ["strategic_opportunities.json lines 317-318", "strategic_opportunities.json lines 349-352"],
+        "demographic_appeal": 4,
+        "evidence_demo": "Strategy strong in emerging markets, cultural content increases appeal",
+        "citations_demo": ["Regional focus on strategy gaming preferences"],
+        "total_player_score": 17
+      },
+      "competitive_advantage_scoring": {
+        "innovation_vs_existing": 7,
+        "evidence_innovation": "Region-specific cultural content rare in strategy games",
+        "citations_innovation": ["strategic_opportunities.json line 345"],
+        "defensibility_moat": 4,
+        "evidence_moat": "Cultural knowledge and local partnerships create barriers",
+        "citations_moat": ["strategic_opportunities.json lines 351-352"],
+        "first_mover_advantage": 5,
+        "evidence_timing": "High growth markets with specific unaddressed needs",
+        "citations_timing": ["strategic_opportunities.json lines 344-346"],
+        "total_competitive_score": 16
+      },
+      "development_feasibility_scoring": {
+        "technical_complexity": 3,
+        "evidence_technical": "Complex 4X mechanics plus cultural research and localization",
+        "citations_technical": ["4X development plus extensive cultural localization"],
+        "time_to_market": 3,
+        "evidence_time": "12-18 months for market-specific development",
+        "citations_time": ["strategic_opportunities.json line 306"],
+        "resource_requirements": 3,
+        "evidence_resources": "$6-10M for market-specific development",
+        "citations_resources": ["strategic_opportunities.json line 319"],
+        "total_feasibility_score": 9
+      },
+      "strategic_fit_scoring": {
+        "platform_optimization": 4,
+        "evidence_platform": "Android optimization for emerging markets, local payment integration",
+        "citations_platform": ["strategic_opportunities.json lines 349-352"],
+        "monetization_alignment": 3,
+        "evidence_monetization": "Ad-supported model for emerging markets, local partnerships needed",
+        "citations_monetization": ["strategic_opportunities.json lines 349-352"],
+        "total_strategic_score": 7
+      },
+      "total_score": 72,
+      "classification": "Good Opportunity",
+      "comparable_games": [
+        "Civilization VI (4X baseline)",
+        "Age of Empires Mobile (historical strategy)",
+        "Rise of Kingdoms (strategy with cultural elements)"
+      ],
+      "success_metrics": [
+        "Strong regional user acquisition",
+        "High cultural engagement metrics",
+        "Successful local partnerships"
+      ]
+    },
+    "14": {
+      "concept_name": "SimEco: Environmental Simulation Game",
+      "core_description": {
+        "gameplay_loop": "City simulation with environmental management, climate adaptation, and ecosystem balance mechanics focusing on meaningful environmental impact",
+        "genre": "Simulation",
+        "subgenre": "Environmental management simulation",
+        "unique_value_proposition": "Simulation game that educates about environmental issues while providing engaging city-building gameplay",
+        "target_demographic": "Environmentally conscious players, educational market, simulation fans seeking meaningful impact",
+        "market_segment": "Educational and meaningful impact gaming"
+      },
+      "market_potential_scoring": {
+        "market_size": 7,
+        "evidence": "Simulation $6.1B revenue (7.4% market share), educational gaming growing",
+        "citations": ["genre_rankings.json lines 68-76"],
+        "growth_trajectory": 4,
+        "evidence_growth": "Simulation +0.4% growth with growing monetization, environmental awareness increasing",
+        "citations_growth": ["genre_rankings.json line 73"],
+        "competition_intensity": 5,
+        "evidence_competition": "Limited environmental simulation games, clear niche opportunity",
+        "citations_competition": ["unmet_needs.json line 194"],
+        "revenue_potential": 4,
+        "evidence_revenue": "Simulation ARPU $1-4/month, educational market potential premium pricing",
+        "citations_revenue": ["performance_metrics.json lines 129-134"],
+        "total_market_score": 20
+      },
+      "player_alignment_scoring": {
+        "addresses_pain_points": 6,
+        "evidence_pain": "Addresses lack of meaningful content, excessive wait times in simulation",
+        "citations_pain": ["pain_points_analysis.json lines 93-99"],
+        "satisfies_unmet_needs": 7,
+        "evidence_needs": "Environmental systems 76% demand, meaningful social impact gaming",
+        "citations_needs": ["unmet_needs.json line 194", "innovation_opportunities.json meaningful impact"],
+        "demographic_appeal": 3,
+        "evidence_demo": "Simulation broad appeal but environmental niche limits demographic reach",
+        "citations_demo": ["Environmental gaming appeals to specific demographics"],
+        "total_player_score": 16
+      },
+      "competitive_advantage_scoring": {
+        "innovation_vs_existing": 8,
+        "evidence_innovation": "Environmental simulation rare, educational integration innovative",
+        "citations_innovation": ["unmet_needs.json line 194"],
+        "defensibility_moat": 4,
+        "evidence_moat": "Educational content and environmental data create some barriers",
+        "citations_moat": ["Specialized environmental content creates advantages"],
+        "first_mover_advantage": 4,
+        "evidence_timing": "Environmental awareness growing, educational gaming demand increasing",
+        "citations_timing": ["Environmental and educational trends favorable"],
+        "total_competitive_score": 16
+      },
+      "development_feasibility_scoring": {
+        "technical_complexity": 3,
+        "evidence_technical": "Complex simulation systems plus environmental modeling",
+        "citations_technical": ["Environmental simulation requires complex modeling"],
+        "time_to_market": 3,
+        "evidence_time": "12-15 months for environmental simulation with educational content",
+        "citations_time": ["Simulation development plus educational content creation"],
+        "resource_requirements": 3,
+        "evidence_resources": "Moderate investment plus environmental research and content creation",
+        "citations_resources": ["Simulation development plus specialized content requirements"],
+        "total_feasibility_score": 9
+      },
+      "strategic_fit_scoring": {
+        "platform_optimization": 3,
+        "evidence_platform": "Simulation works across platforms but limited monetization potential",
+        "citations_platform": ["Simulation monetization traditionally lower"],
+        "monetization_alignment": 3,
+        "evidence_monetization": "Educational and environmental focus may limit aggressive monetization",
+        "citations_monetization": ["Meaningful impact gaming requires ethical monetization"],
+        "total_strategic_score": 6
+      },
+      "total_score": 67,
+      "classification": "Moderate Potential",
+      "comparable_games": [
+        "SimCity BuildIt (city simulation baseline)",
+        "Cities: Skylines (environmental city building)",
+        "Alto's Odyssey (environmental awareness in gaming)"
+      ],
+      "success_metrics": [
+        "Educational engagement metrics",
+        "Environmental awareness impact",
+        "Word-of-mouth growth in educational sector"
+      ]
+    },
+    "15": {
+      "concept_name": "AccessibleRPG: Universal Design Adventure",
+      "core_description": {
+        "gameplay_loop": "Turn-based RPG designed from ground up for accessibility with screen reader support, one-handed controls, customizable difficulty, and cognitive load options",
+        "genre": "RPG",
+        "subgenre": "Accessibility-first turn-based RPG",
+        "unique_value_proposition": "First major mobile RPG designed for players with disabilities while remaining engaging for all players",
+        "target_demographic": "Players with disabilities, accessibility advocates, inclusive gaming enthusiasts",
+        "market_segment": "Accessible gaming market"
+      },
+      "market_potential_scoring": {
+        "market_size": 5,
+        "evidence": "RPG $16.8B revenue, accessibility gaming underserved but growing awareness",
+        "citations": ["genre_rankings.json lines 38-45", "design_innovations.json accessibility measures"],
+        "growth_trajectory": 4,
+        "evidence_growth": "26% increase in accessibility measures, growing awareness",
+        "citations_growth": ["market_gaps.json line 172"],
+        "competition_intensity": 5,
+        "evidence_competition": "Significant underserved market, minimal competition in accessible RPGs",
+        "citations_competition": ["market_gaps.json lines 170-175"],
+        "revenue_potential": 5,
+        "evidence_revenue": "RPG ARPU $6-12/month, accessibility market willing to pay premium for quality",
+        "citations_revenue": ["performance_metrics.json lines 68-71"],
+        "total_market_score": 19
+      },
+      "player_alignment_scoring": {
+        "addresses_pain_points": 8,
+        "evidence_pain": "Addresses complex controls complaints, accessibility gaps",
+        "citations_pain": ["pain_points_analysis.json lines 141-145", "unmet_needs.json lines 221-239"],
+        "satisfies_unmet_needs": 9,
+        "evidence_needs": "Accessibility options extensively detailed in unmet needs",
+        "citations_needs": ["unmet_needs.json lines 221-239"],
+        "demographic_appeal": 3,
+        "evidence_demo": "Limited to accessibility-focused demographic but strong word-of-mouth potential",
+        "citations_demo": ["market_gaps.json line 174"],
+        "total_player_score": 20
+      },
+      "competitive_advantage_scoring": {
+        "innovation_vs_existing": 9,
+        "evidence_innovation": "Accessibility-first RPG design rare, clear innovation opportunity",
+        "citations_innovation": ["market_gaps.json lines 170-175"],
+        "defensibility_moat": 4,
+        "evidence_moat": "Accessibility expertise and community relationships create barriers",
+        "citations_moat": ["Accessibility design expertise creates competitive advantages"],
+        "first_mover_advantage": 5,
+        "evidence_timing": "Growing accessibility awareness, strong word-of-mouth potential",
+        "citations_timing": ["market_gaps.json line 174"],
+        "total_competitive_score": 18
+      },
+      "development_feasibility_scoring": {
+        "technical_complexity": 3,
+        "evidence_technical": "Complex accessibility implementation, design requirements extensive",
+        "citations_technical": ["unmet_needs.json lines 221-239 show complexity"],
+        "time_to_market": 3,
+        "evidence_time": "12-18 months for accessibility-first RPG development",
+        "citations_time": ["Accessibility implementation requires extensive development time"],
+        "resource_requirements": 3,
+        "evidence_resources": "Moderate to high investment for accessibility features and testing",
+        "citations_resources": ["market_gaps.json line 175"],
+        "total_feasibility_score": 9
+      },
+      "strategic_fit_scoring": {
+        "platform_optimization": 4,
+        "evidence_platform": "Cross-platform accessibility benefits, iOS strong accessibility support",
+        "citations_platform": ["iOS accessibility features strong, Android growing"],
+        "monetization_alignment": 4,
+        "evidence_monetization": "Ethical monetization required, fits with accessibility values",
+        "citations_monetization": ["Accessibility market values ethical approaches"],
+        "total_strategic_score": 8
+      },
+      "total_score": 74,
+      "classification": "Good Opportunity",
+      "comparable_games": [
+        "Final Fantasy Tactics (turn-based RPG baseline)",
+        "Vale (audio-only adventure game)",
+        "Microsoft accessibility gaming initiatives"
+      ],
+      "success_metrics": [
+        "Accessibility compliance achievement",
+        "Community advocacy and word-of-mouth",
+        "Cross-demographic adoption rates"
+      ]
+    },
+    "16": {
+      "concept_name": "HyperLocal: Neighborhood Strategy Game",
+      "core_description": {
+        "gameplay_loop": "Location-based strategy game where players build and manage their real neighborhood, collaborate with nearby players, and compete with adjacent areas",
+        "genre": "Strategy",
+        "subgenre": "Location-based neighborhood strategy with AR elements",
+        "unique_value_proposition": "Strategy gaming that connects players with their real-world community and local area",
+        "target_demographic": "Local community-oriented players, location-based gaming enthusiasts",
+        "market_segment": "Location-based strategy gaming"
+      },
+      "market_potential_scoring": {
+        "market_size": 8,
+        "evidence": "Strategy $17.5B revenue, location-based gaming growing, AR integration emerging",
+        "citations": ["genre_rankings.json lines 28-35", "technology_roadmaps.json AR mobile integration"],
+        "growth_trajectory": 4,
+        "evidence_growth": "Strategy +14.5% downloads, AR mobile integration 2024-2025 timeline",
+        "citations_growth": ["genre_rankings.json line 33", "technology_roadmaps.json lines 146-148"],
+        "competition_intensity": 4,
+        "evidence_competition": "Limited location-based strategy games, Pokemon Go shows potential",
+        "citations_competition": ["Location-based strategy relatively underexplored"],
+        "revenue_potential": 6,
+        "evidence_revenue": "Strategy ARPU $8-15/month, location-based potential for local monetization",
+        "citations_revenue": ["performance_metrics.json lines 47-51"],
+        "total_market_score": 22
+      },
+      "player_alignment_scoring": {
+        "addresses_pain_points": 5,
+        "evidence_pain": "Addresses lack of meaningful social features, connects real-world communities",
+        "citations_pain": ["pain_points_analysis.json lines 122-125"],
+        "satisfies_unmet_needs": 6,
+        "evidence_needs": "AR overlay features requested, location-based gaming potential",
+        "citations_needs": ["unmet_needs.json line 211"],
+        "demographic_appeal": 3,
+        "evidence_demo": "Limited to location-based gaming enthusiasts, community-oriented players",
+        "citations_demo": ["Location-based gaming has specific demographic appeal"],
+        "total_player_score": 14
+      },
+      "competitive_advantage_scoring": {
+        "innovation_vs_existing": 7,
+        "evidence_innovation": "Location-based strategy rare, AR integration provides differentiation",
+        "citations_innovation": ["technology_roadmaps.json AR applications"],
+        "defensibility_moat": 3,
+        "evidence_moat": "Local community networks create some barriers, but concept replicable",
+        "citations_moat": ["Location-based community advantages"],
+        "first_mover_advantage": 4,
+        "evidence_timing": "AR mobile integration entering 2024-2025 timeline",
+        "citations_timing": ["technology_roadmaps.json line 147"],
+        "total_competitive_score": 14
+      },
+      "development_feasibility_scoring": {
+        "technical_complexity": 2,
+        "evidence_technical": "High complexity - location services, AR integration, multiplayer systems",
+        "citations_technical": ["Location-based + AR + strategy = high technical complexity"],
+        "time_to_market": 3,
+        "evidence_time": "15-18 months for location-based strategy with AR features",
+        "citations_time": ["Complex technical requirements extend development time"],
+        "resource_requirements": 3,
+        "evidence_resources": "High investment for location services, AR, and mapping technology",
+        "citations_resources": ["Location-based and AR development requires significant investment"],
+        "total_feasibility_score": 8
+      },
+      "strategic_fit_scoring": {
+        "platform_optimization": 4,
+        "evidence_platform": "Mobile-first design, AR capabilities on modern devices",
+        "citations_platform": ["Location-based gaming optimized for mobile platforms"],
+        "monetization_alignment": 3,
+        "evidence_monetization": "Location-based monetization challenging, privacy concerns",
+        "citations_monetization": ["Location-based gaming monetization faces privacy challenges"],
+        "total_strategic_score": 7
+      },
+      "total_score": 65,
+      "classification": "Moderate Potential",
+      "comparable_games": [
+        "Pokemon Go (location-based baseline)",
+        "Ingress (location-based strategy elements)",
+        "Harry Potter: Wizards Unite (AR location gaming)"
+      ],
+      "success_metrics": [
+        "Local community engagement",
+        "AR feature adoption rates",
+        "Real-world community building"
+      ]
+    },
+    "17": {
+      "concept_name": "MindfulMatch: Wellness Puzzle Game",
+      "core_description": {
+        "gameplay_loop": "Match-3 puzzle integrated with mindfulness exercises, breathing techniques, and stress reduction features designed for mental wellness",
+        "genre": "Puzzle",
+        "subgenre": "Wellness-focused match-3 with mindfulness integration",
+        "unique_value_proposition": "Puzzle gaming that actively contributes to player mental health and wellness",
+        "target_demographic": "Wellness-conscious players, stress management seekers, mindfulness practitioners",
+        "market_segment": "Wellness and mental health gaming"
+      },
+      "market_potential_scoring": {
+        "market_size": 6,
+        "evidence": "Puzzle $12.2B revenue, wellness gaming growing but niche market",
+        "citations": ["genre_rankings.json lines 48-56"],
+        "growth_trajectory": 4,
+        "evidence_growth": "Puzzle positive growth, wellness market expanding rapidly",
+        "citations_growth": ["genre_rankings.json line 51", "Wellness and mental health awareness growing"],
+        "competition_intensity": 5,
+        "evidence_competition": "Limited wellness-focused puzzle games, clear niche opportunity",
+        "citations_competition": ["Wellness gaming relatively underexplored in puzzle genre"],
+        "revenue_potential": 5,
+        "evidence_revenue": "Puzzle ARPU $2-6/month, wellness market willing to pay premium",
+        "citations_revenue": ["performance_metrics.json lines 87-92"],
+        "total_market_score": 20
+      },
+      "player_alignment_scoring": {
+        "addresses_pain_points": 6,
+        "evidence_pain": "Addresses gaming addiction concerns, provides positive mental health impact",
+        "citations_pain": ["Gaming wellness concerns growing"],
+        "satisfies_unmet_needs": 7,
+        "evidence_needs": "Meaningful social impact gaming demand, wellness integration requests",
+        "citations_needs": ["innovation_opportunities.json meaningful impact gaming"],
+        "demographic_appeal": 3,
+        "evidence_demo": "Limited to wellness-focused demographic but growing market",
+        "citations_demo": ["Wellness gaming appeals to specific growing demographic"],
+        "total_player_score": 16
+      },
+      "competitive_advantage_scoring": {
+        "innovation_vs_existing": 8,
+        "evidence_innovation": "Wellness-puzzle integration rare, clear innovation opportunity",
+        "citations_innovation": ["Mindfulness gaming integration uncommon"],
+        "defensibility_moat": 3,
+        "evidence_moat": "Wellness expertise and content create some barriers",
+        "citations_moat": ["Wellness content and expert partnerships create advantages"],
+        "first_mover_advantage": 4,
+        "evidence_timing": "Mental health awareness growing, wellness gaming emerging",
+        "citations_timing": ["Mental health and wellness trends favorable"],
+        "total_competitive_score": 15
+      },
+      "development_feasibility_scoring": {
+        "technical_complexity": 4,
+        "evidence_technical": "Standard puzzle mechanics with wellness feature integration",
+        "citations_technical": ["Puzzle development standard, wellness features moderate complexity"],
+        "time_to_market": 4,
+        "evidence_time": "9-12 months for wellness-integrated puzzle game",
+        "citations_time": ["Puzzle development timeline with wellness content creation"],
+        "resource_requirements": 4,
+        "evidence_resources": "Moderate investment plus wellness expert consultation",
+        "citations_resources": ["Puzzle development plus wellness expertise costs"],
+        "total_feasibility_score": 12
+      },
+      "strategic_fit_scoring": {
+        "platform_optimization": 4,
+        "evidence_platform": "Puzzle games work well across platforms, wellness features portable",
+        "citations_platform": ["Puzzle genre strong cross-platform performance"],
+        "monetization_alignment": 4,
+        "evidence_monetization": "Wellness market accepts premium pricing, ethical monetization fit",
+        "citations_monetization": ["Wellness market values ethical approaches"],
+        "total_strategic_score": 8
+      },
+      "total_score": 71,
+      "classification": "Good Opportunity",
+      "comparable_games": [
+        "Candy Crush Saga (match-3 baseline)",
+        "Headspace (wellness app baseline)",
+        "Monument Valley (mindful puzzle experience)"
+      ],
+      "success_metrics": [
+        "Wellness impact measurement",
+        "User stress reduction metrics",
+        "Mental health community engagement"
+      ]
+    },
+    "18": {
+      "concept_name": "RetroRevival: Premium Classic Gaming Hub",
+      "core_description": {
+        "gameplay_loop": "Premium subscription service offering modernized versions of classic arcade, puzzle, and action games with enhanced graphics, online leaderboards, and social features",
+        "genre": "Mixed (Arcade/Puzzle/Action)",
+        "subgenre": "Premium retro gaming subscription platform",
+        "unique_value_proposition": "High-quality retro gaming experience with modern enhancements and no intrusive monetization",
+        "target_demographic": "Nostalgic gamers, retro gaming enthusiasts, premium experience seekers",
+        "market_segment": "Premium retro gaming"
+      },
+      "market_potential_scoring": {
+        "market_size": 5,
+        "evidence": "Arcade $2-3B revenue but declining, classic games strong retention D28 3-7%",
+        "citations": ["genre_rankings.json lines 97-103", "performance_metrics.json lines 182-202"],
+        "growth_trajectory": 2,
+        "evidence_growth": "Arcade -12.5% downloads, declining trend but nostalgic appeal exists",
+        "citations_growth": ["genre_rankings.json line 101"],
+        "competition_intensity": 4,
+        "evidence_competition": "Limited premium retro offerings, mostly individual classic games",
+        "citations_competition": ["Retro gaming market fragmented, limited premium platforms"],
+        "revenue_potential": 6,
+        "evidence_revenue": "Classic games ARPU $4-10/month, premium retro willing to pay more",
+        "citations_revenue": ["performance_metrics.json lines 191-196"],
+        "total_market_score": 17
+      },
+      "player_alignment_scoring": {
+        "addresses_pain_points": 6,
+        "evidence_pain": "Addresses intrusive monetization in classic games, poor mobile ports",
+        "citations_pain": ["Classic gaming often has poor mobile monetization"],
+        "satisfies_unmet_needs": 6,
+        "evidence_needs": "Premium ad-free options demanded, quality classic gaming experiences",
+        "citations_needs": ["unmet_needs.json lines 155-169"],
+        "demographic_appeal": 3,
+        "evidence_demo": "Limited to nostalgic gamers and retro enthusiasts",
+        "citations_demo": ["Retro gaming appeals to specific demographic"],
+        "total_player_score": 15
+      },
+      "competitive_advantage_scoring": {
+        "innovation_vs_existing": 5,
+        "evidence_innovation": "Premium retro platform approach moderately innovative",
+        "citations_innovation": ["Retro gaming platform approach has some innovation"],
+        "defensibility_moat": 3,
+        "evidence_moat": "Content licensing and curation provide some barriers",
+        "citations_moat": ["Classic game licensing creates some competitive advantages"],
+        "first_mover_advantage": 3,
+        "evidence_timing": "Retro gaming market mature, limited timing advantages",
+        "citations_timing": ["Retro gaming not emerging trend"],
+        "total_competitive_score": 11
+      },
+      "development_feasibility_scoring": {
+        "technical_complexity": 4,
+        "evidence_technical": "Moderate complexity for retro game modernization and platform",
+        "citations_technical": ["Retro game porting and enhancement moderate complexity"],
+        "time_to_market": 4,
+        "evidence_time": "9-12 months for retro gaming platform with initial content",
+        "citations_time": ["Platform development with licensed content timeline"],
+        "resource_requirements": 3,
+        "evidence_resources": "Moderate to high investment for licensing and platform development",
+        "citations_resources": ["Classic game licensing and platform costs significant"],
+        "total_feasibility_score": 11
+      },
+      "strategic_fit_scoring": {
+        "platform_optimization": 4,
+        "evidence_platform": "Retro games work across platforms, nostalgia appeals to premium users",
+        "citations_platform": ["Retro gaming cross-platform compatible"],
+        "monetization_alignment": 4,
+        "evidence_monetization": "Premium subscription model fits retro gaming values",
+        "citations_monetization": ["Retro gamers prefer premium over F2P models"],
+        "total_strategic_score": 8
+      },
+      "total_score": 62,
+      "classification": "Moderate Potential",
+      "comparable_games": [
+        "Apple Arcade (premium game subscription)",
+        "Pac-Man Party Royale (modernized classic)",
+        "Atari VCS collection (retro gaming platform)"
+      ],
+      "success_metrics": [
+        "Subscriber retention rates",
+        "Classic game engagement metrics",
+        "Nostalgia satisfaction measurement"
+      ]
+    }
+  }
+}

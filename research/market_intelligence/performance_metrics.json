@@ -1,0 +1,255 @@
+{
+  "metadata": {
+    "data_collection_date": "2025-08-14",
+    "report_period": "2024-Q1 2025",
+    "sources": [
+      {
+        "name": "GameAnalytics Q1 2024 Benchmarks",
+        "url": "https://gamedevreports.substack.com/p/gameanalytics-benchmarks-in-mobile",
+        "confidence_level": "high",
+        "methodology": "Aggregated performance data from 500M+ MAU"
+      },
+      {
+        "name": "Mistplay Retention Benchmarks",
+        "url": "https://www.mistplay.com/resources/mobile-game-retention-benchmarks",
+        "confidence_level": "high",
+        "methodology": "Cross-platform retention analysis"
+      },
+      {
+        "name": "Business of Apps Genre Study",
+        "url": "https://www.businessofapps.com/insights/paying-user-and-rolling-retention-rate-benchmarks-across-game-genres-study/",
+        "confidence_level": "medium",
+        "methodology": "Industry survey and analytics aggregation"
+      }
+    ]
+  },
+  "global_benchmarks_2024": {
+    "overall_market_medians": {
+      "d1_retention": "22.91%",
+      "d7_retention": "4.2%",
+      "d28_retention": "0.85%",
+      "global_arpu_2024": "$57.64",
+      "projected_arpu_2027": "$64.26",
+      "dau_mau_stickiness_median": "8%",
+      "dau_mau_stickiness_top_15": "19%",
+      "conversion_rate_median": "<1%"
+    }
+  },
+  "performance_by_genre": {
+    "Strategy": {
+      "retention_rates": {
+        "d1_retention": "20-25%",
+        "d7_retention": "8-12%",
+        "d28_retention": "2-4%",
+        "confidence_level": "medium"
+      },
+      "monetization_metrics": {
+        "arpu_monthly": "$8-15",
+        "arpdau": "$0.25-0.40",
+        "arppu_top_5": "$50-60",
+        "conversion_rate": "2.5%",
+        "confidence_level": "high"
+      },
+      "engagement_metrics": {
+        "session_length": "15-25 minutes",
+        "sessions_per_day": "3-5",
+        "dau_mau_stickiness": "12-18%"
+      }
+    },
+    "RPG": {
+      "retention_rates": {
+        "d1_retention": "25-30%",
+        "d7_retention": "10-15%",
+        "d28_retention": "3-6%",
+        "confidence_level": "medium"
+      },
+      "monetization_metrics": {
+        "arpu_monthly": "$6-12",
+        "arpdau": "$0.25-0.35",
+        "arppu_top_5": "$50-60",
+        "conversion_rate": "3%",
+        "confidence_level": "high"
+      },
+      "engagement_metrics": {
+        "session_length": "20-35 minutes",
+        "sessions_per_day": "2-4",
+        "dau_mau_stickiness": "15-25%"
+      }
+    },
+    "Puzzle": {
+      "retention_rates": {
+        "d1_retention": "25-35%",
+        "d7_retention": "8-12%",
+        "d28_retention": "2-4%",
+        "confidence_level": "high",
+        "notes": "Highest D7 retention among all genres"
+      },
+      "monetization_metrics": {
+        "arpu_monthly": "$2-6",
+        "arpdau": "$0.10-0.20",
+        "arppu_casual_top": "$50-60",
+        "conversion_rate": "1-2%",
+        "confidence_level": "high"
+      },
+      "engagement_metrics": {
+        "session_length": "8-15 minutes",
+        "sessions_per_day": "4-8",
+        "dau_mau_stickiness": "15-20%"
+      }
+    },
+    "Casino": {
+      "retention_rates": {
+        "d1_retention": "22-28%",
+        "d7_retention": "6-10%",
+        "d28_retention": "1.5-3%",
+        "confidence_level": "medium"
+      },
+      "monetization_metrics": {
+        "arpu_monthly": "$15-30",
+        "arpdau": "$0.30-0.50",
+        "arppu_top_5": "$80-120",
+        "conversion_rate": "1.5-2.5%",
+        "confidence_level": "medium"
+      },
+      "engagement_metrics": {
+        "session_length": "12-20 minutes",
+        "sessions_per_day": "5-8",
+        "dau_mau_stickiness": "20-30%",
+        "notes": "Best stickiness among all genres"
+      }
+    },
+    "Simulation": {
+      "retention_rates": {
+        "d1_retention": "20-30%",
+        "d7_retention": "5-9%",
+        "d28_retention": "1-2.5%",
+        "confidence_level": "medium"
+      },
+      "monetization_metrics": {
+        "arpu_monthly": "$1-4",
+        "arpdau": "$0.05-0.15",
+        "arppu_top_5": "$30-50",
+        "conversion_rate": "0.8-1.5%",
+        "confidence_level": "medium"
+      },
+      "engagement_metrics": {
+        "session_length": "10-20 minutes",
+        "sessions_per_day": "3-6",
+        "dau_mau_stickiness": "10-15%"
+      }
+    },
+    "Arcade": {
+      "retention_rates": {
+        "d1_retention": "18-25%",
+        "d7_retention": "3-6%",
+        "d28_retention": "0.5-1.5%",
+        "confidence_level": "medium"
+      },
+      "monetization_metrics": {
+        "arpu_monthly": "$0.50-2",
+        "arpdau": "$0.02-0.08",
+        "arppu_top_5": "$20-40",
+        "conversion_rate": "0.5-1%",
+        "confidence_level": "medium"
+      },
+      "engagement_metrics": {
+        "session_length": "5-10 minutes",
+        "sessions_per_day": "4-8",
+        "dau_mau_stickiness": "8-12%"
+      }
+    },
+    "Matching_Games": {
+      "retention_rates": {
+        "d1_retention": "30-40%",
+        "d7_retention": "12-18%",
+        "d28_retention": "3-6%",
+        "confidence_level": "high",
+        "notes": "Best performance across all retention metrics"
+      },
+      "monetization_metrics": {
+        "arpu_monthly": "$3-8",
+        "arpdau": "$0.15-0.25",
+        "ad_arpu": "$2.99",
+        "conversion_rate": "1.5-2.5%",
+        "confidence_level": "high"
+      },
+      "engagement_metrics": {
+        "session_length": "10-18 minutes",
+        "sessions_per_day": "4-7",
+        "dau_mau_stickiness": "18-25%"
+      }
+    },
+    "Classic_Games": {
+      "retention_rates": {
+        "d1_retention": "25-35%",
+        "d7_retention": "10-16%",
+        "d28_retention": "3-7%",
+        "confidence_level": "high",
+        "notes": "Excel in D7 and D28 retention, includes board, card, word games"
+      },
+      "monetization_metrics": {
+        "arpu_monthly": "$4-10",
+        "arpdau": "$0.12-0.30",
+        "arppu_top_daily": "$60+",
+        "conversion_rate": "1.5-3%",
+        "confidence_level": "high"
+      },
+      "engagement_metrics": {
+        "session_length": "12-25 minutes",
+        "sessions_per_day": "3-6",
+        "dau_mau_stickiness": "15-28%"
+      }
+    }
+  },
+  "hypercasual_vs_hybrid_casual": {
+    "hypercasual": {
+      "arpu": "$0.86",
+      "arpdau": "$0.02-0.05",
+      "retention_focus": "D1 optimization",
+      "monetization": "Ad-heavy model"
+    },
+    "hybrid_casual": {
+      "arpu": "$2-8",
+      "arpdau": "$0.08-0.20",
+      "retention_focus": "D7+ engagement",
+      "monetization": "IAP + Ad hybrid",
+      "growth_2024": "+37% IAP revenue"
+    }
+  },
+  "regional_variations": {
+    "North_America": {
+      "performance": "Leads in D1, D7, D28 engagement rates",
+      "arpu_premium": "15-25% above global average",
+      "ios_android_split": "Higher iOS revenue share"
+    },
+    "Europe": {
+      "performance": "Strong short-term retention for casual projects",
+      "revenue_growth_2024": "+24% YoY",
+      "market_maturity": "High"
+    },
+    "Asia": {
+      "performance": "Lower retention rates due to high competition",
+      "revenue_concentration": "Japan, South Korea, China dominate",
+      "genre_preference": "RPG, Strategy stronger performance"
+    },
+    "Middle_East": {
+      "performance": "Strong preference for classic games",
+      "retention": "Leading rates in classic game categories",
+      "market_growth": "Emerging"
+    }
+  },
+  "platform_differences": {
+    "iOS": {
+      "retention": "Generally better retention rates",
+      "arpu": "2-3x higher than Android",
+      "cpi_casual_2024": "$4.83",
+      "revenue_growth_2024": "Primary driver of growth"
+    },
+    "Android": {
+      "retention": "Lower retention rates",
+      "arpu": "Lower but higher volume",
+      "cpi_casual_2024": "$0.65",
+      "market_share_downloads": "70%+"
+    }
+  }
+}

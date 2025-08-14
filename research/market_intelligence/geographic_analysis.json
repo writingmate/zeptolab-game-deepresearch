@@ -1,0 +1,208 @@
+{
+  "metadata": {
+    "data_collection_date": "2025-08-14",
+    "report_period": "2024-2025",
+    "sources": [
+      {
+        "name": "Sensor Tower State of Mobile 2025",
+        "url": "https://sensortower.com/blog/2025-state-of-mobile-consumers-usd150-billion-spent-on-mobile-highlights",
+        "confidence_level": "high",
+        "methodology": "App store transaction tracking and analysis"
+      },
+      {
+        "name": "Mobile Gaming Market Reports",
+        "url": "https://asomobile.net/en/blog/mobile-games-market-2024/",
+        "confidence_level": "medium",
+        "methodology": "Industry data aggregation"
+      },
+      {
+        "name": "SkyQuest Mobile Gaming Market Analysis",
+        "url": "https://www.skyquestt.com/report/mobile-gaming-market",
+        "confidence_level": "medium",
+        "methodology": "Market research and forecasting"
+      }
+    ]
+  },
+  "global_market_overview_2024": {
+    "total_revenue": "$92 billion",
+    "yoy_growth": "+3.0%",
+    "iap_revenue": "$81 billion",
+    "iap_growth": "+4% YoY",
+    "total_app_spending": "$150 billion",
+    "gaming_share_of_apps": "61%"
+  },
+  "top_markets_by_revenue": {
+    "1": {
+      "country": "United States",
+      "revenue_2024": "$52 billion",
+      "market_share": "35% of global total",
+      "yoy_growth": "strong gains",
+      "platform_preference": "iOS dominant in revenue",
+      "genre_preferences": ["Strategy", "Puzzle", "Casino"],
+      "notes": "Leading market, over one-third of global revenue"
+    },
+    "2": {
+      "country": "China",
+      "revenue_2024": "$34.66-36.89 billion",
+      "market_share": "23-25% of global total",
+      "yoy_growth": "moderate",
+      "platform_preference": "Android heavy but iOS growing",
+      "genre_preferences": ["RPG", "Strategy", "Action"],
+      "notes": "Largest market by users, second by revenue due to platform restrictions"
+    },
+    "3": {
+      "country": "Japan",
+      "revenue_2024": "$16.77 billion",
+      "market_share": "14.8% of global total",
+      "yoy_growth": "modest/declining",
+      "platform_preference": "iOS strong",
+      "genre_preferences": ["RPG", "Puzzle", "Simulation"],
+      "notes": "High ARPU market, RPG stronghold showing weakness"
+    },
+    "4": {
+      "country": "South Korea",
+      "revenue_2024": "$6.12 billion",
+      "market_share": "4-5% of global total",
+      "yoy_growth": "modest/declining",
+      "platform_preference": "Balanced iOS/Android",
+      "genre_preferences": ["RPG", "Strategy", "Action"],
+      "notes": "High engagement market, RPG decline affecting overall performance"
+    }
+  },
+  "regional_analysis": {
+    "North_America": {
+      "total_revenue": "$52+ billion",
+      "primary_markets": ["United States", "Canada"],
+      "yoy_growth": "Strong gains",
+      "growth_drivers": ["Casual games", "Hybrid monetization"],
+      "platform_split": {
+        "ios_revenue_share": "60-70%",
+        "android_revenue_share": "30-40%"
+      },
+      "genre_performance": {
+        "strongest": ["Strategy", "Puzzle", "Casino"],
+        "emerging": ["Hybrid Casual", "Battle Royale"],
+        "declining": ["Hypercasual"]
+      },
+      "user_behavior": {
+        "arpu": "$80-120 annually",
+        "session_frequency": "High",
+        "retention_rates": "Above global average",
+        "conversion_rates": "2-4%"
+      }
+    },
+    "Europe": {
+      "total_revenue": "$8.23+ billion",
+      "yoy_growth": "+24% (highest growth rate)",
+      "growth_rate_context": "Double the global figure",
+      "primary_markets": ["United Kingdom", "Germany", "France", "Netherlands"],
+      "platform_split": {
+        "ios_revenue_share": "50-60%",
+        "android_revenue_share": "40-50%"
+      },
+      "genre_performance": {
+        "strongest": ["Puzzle", "Strategy", "Simulation"],
+        "emerging": ["Hybrid Casual", "Classic Games"],
+        "stable": ["Casino", "RPG"]
+      },
+      "user_behavior": {
+        "arpu": "$40-80 annually",
+        "session_frequency": "Moderate to High",
+        "retention_focus": "Strong short-term retention for casual",
+        "conversion_rates": "1.5-3%"
+      }
+    },
+    "Asia_Pacific": {
+      "total_revenue": "$54% of global market",
+      "yoy_growth": "+12% CAGR",
+      "primary_markets": ["China", "Japan", "South Korea", "India", "Thailand"],
+      "market_dynamics": "Modest results in key markets, growth in emerging",
+      "platform_split": {
+        "android_dominance": "70-80% of downloads",
+        "ios_revenue_premium": "2-3x per user"
+      },
+      "genre_performance": {
+        "strongest": ["RPG", "Strategy", "Action"],
+        "declining": ["RPG in Japan/Korea"],
+        "emerging": ["Battle Royale", "Simulation"]
+      },
+      "subregion_breakdown": {
+        "East_Asia": {
+          "markets": ["China", "Japan", "South Korea"],
+          "revenue_share": "80% of APAC",
+          "trend": "Mature markets with modest growth"
+        },
+        "Southeast_Asia": {
+          "markets": ["Thailand", "Vietnam", "Indonesia", "Philippines"],
+          "growth": "Thailand +16%, strong emerging trends",
+          "genre_preference": ["Battle Royale", "MOBA", "RPG"]
+        },
+        "South_Asia": {
+          "markets": ["India"],
+          "growth": "+17%",
+          "characteristics": "Price-sensitive, Android-heavy, growing fast"
+        }
+      }
+    },
+    "Latin_America": {
+      "primary_markets": ["Mexico", "Brazil", "Argentina"],
+      "growth_highlights": "Mexico +21% consumer spending",
+      "platform_preference": "Android dominant",
+      "genre_preferences": ["Action", "Strategy", "Casual"],
+      "market_characteristics": "Price-sensitive, ad-monetization heavy"
+    },
+    "Middle_East_Africa": {
+      "growth_leader": "Turkey +28% consumer spending",
+      "genre_preference": "Classic games perform exceptionally well",
+      "retention_performance": "Leading rates in classic game categories",
+      "market_status": "Emerging with high growth potential",
+      "monetization": "Hybrid models gaining traction"
+    }
+  },
+  "emerging_vs_mature_markets": {
+    "mature_markets": {
+      "definition": "US, Japan, South Korea, Western Europe",
+      "characteristics": ["High ARPU", "Premium monetization", "Platform diversity"],
+      "growth_rate": "Low to moderate (2-8%)",
+      "challenges": ["Market saturation", "User acquisition costs", "Competition"]
+    },
+    "emerging_markets": {
+      "high_growth": ["Turkey +28%", "Mexico +21%", "India +17%", "Thailand +16%"],
+      "characteristics": ["High growth rates", "Android-heavy", "Price-sensitive"],
+      "opportunities": ["Large user bases", "Improving infrastructure", "Rising disposable income"],
+      "monetization_focus": ["Ad-heavy models", "Lower price points", "Local payment methods"]
+    }
+  },
+  "market_penetration_by_region": {
+    "smartphone_penetration": {
+      "North_America": "85-90%",
+      "Europe": "80-85%",
+      "East_Asia": "90-95%",
+      "Southeast_Asia": "70-80%",
+      "Latin_America": "65-75%",
+      "Middle_East_Africa": "60-70%"
+    },
+    "mobile_gaming_adoption": {
+      "North_America": "60-70% of smartphone users",
+      "Europe": "55-65% of smartphone users",
+      "Asia_Pacific": "70-80% of smartphone users",
+      "Latin_America": "65-75% of smartphone users",
+      "Middle_East_Africa": "50-60% of smartphone users"
+    }
+  },
+  "future_growth_projections": {
+    "2025_forecast": {
+      "global_revenue": "$105.7 billion",
+      "growth_rate": "+15% YoY"
+    },
+    "2027_forecast": {
+      "global_revenue": "$118.9 billion",
+      "cagr_2024_2027": "8-10%"
+    },
+    "regional_growth_leaders": {
+      "highest_cagr": ["Middle East", "Latin America", "Southeast Asia"],
+      "stable_growth": ["North America", "Europe"],
+      "mature_markets": ["Japan", "South Korea"]
+    }
+  }
+}

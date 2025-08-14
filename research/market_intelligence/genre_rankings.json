@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "data_collection_date": "2025-08-14",
+    "report_period": "2024-2025",
+    "sources": [
+      {
+        "name": "Sensor Tower",
+        "url": "https://sensortower.com/state-of-gaming-2025",
+        "confidence_level": "high",
+        "methodology": "App store analytics and revenue tracking"
+      },
+      {
+        "name": "Game World Observer",
+        "url": "https://gameworldobserver.com/2024/07/30/mobile-games-19-7-billion-revenue-q2-rpg-sensor-tower",
+        "confidence_level": "high",
+        "methodology": "Industry analysis and Sensor Tower data"
+      },
+      {
+        "name": "Udonis Blog",
+        "url": "https://www.blog.udonis.co/mobile-marketing/mobile-games/mobile-gaming-statistics",
+        "confidence_level": "medium",
+        "methodology": "Aggregated industry data"
+      }
+    ]
+  },
+  "top_grossing_genres_2024": {
+    "1": {
+      "genre": "Strategy",
+      "revenue_2024": "$17.5 billion",
+      "market_share_revenue": "21.4%",
+      "yoy_growth": "positive",
+      "download_share": "4%",
+      "download_growth": "+14.5%",
+      "monetization_efficiency": "extremely_high",
+      "notes": "Overtook RPG as top grossing genre for first time since 2017. Led by 4X strategy subgenre."
+    },
+    "2": {
+      "genre": "RPG",
+      "revenue_2024": "$16.8 billion",
+      "market_share_revenue": "20.5%",
+      "yoy_growth": "declining",
+      "download_share": "8-10%",
+      "download_growth": "negative",
+      "monetization_efficiency": "high",
+      "notes": "Declined due to weakening markets in Japan and South Korea. Squad-based RPGs and MMORPGs lead subgenre revenue."
+    },
+    "3": {
+      "genre": "Puzzle",
+      "revenue_2024": "$12.2 billion",
+      "market_share_revenue": "14.9%",
+      "yoy_growth": "positive",
+      "download_share": "20%",
+      "download_growth": "-3%",
+      "monetization_efficiency": "medium_high",
+      "notes": "Match swap puzzle games dominate revenue within casual segment. Strong hybrid monetization adoption."
+    },
+    "4": {
+      "genre": "Casino",
+      "revenue_2024": "$11.7 billion",
+      "market_share_revenue": "14.3%",
+      "yoy_growth": "stable",
+      "download_share": "5-7%",
+      "download_growth": "stable",
+      "monetization_efficiency": "very_high",
+      "notes": "Consistent high-value monetization with strong whale spending patterns."
+    },
+    "5": {
+      "genre": "Simulation",
+      "revenue_2024": "$6.1 billion",
+      "market_share_revenue": "7.4%",
+      "yoy_growth": "positive",
+      "download_share": "20%",
+      "download_growth": "+0.4%",
+      "monetization_efficiency": "medium",
+      "notes": "Most downloaded genre alongside Puzzle. Strong casual appeal with growing monetization."
+    }
+  },
+  "additional_genres": {
+    "Shooter": {
+      "revenue_2024": "$4.3 billion",
+      "market_share_revenue": "5.2%",
+      "download_share": "4-5%",
+      "notes": "Strong mid-core performance but smaller overall market"
+    },
+    "Action": {
+      "revenue_2024": "$2.7-4.3 billion",
+      "market_share_revenue": "3.3-5.2%",
+      "download_share": "6-8%",
+      "notes": "Wide range due to subgenre variation"
+    },
+    "Sports": {
+      "revenue_2024": "$2.7-4.3 billion",
+      "market_share_revenue": "3.3-5.2%",
+      "download_share": "3-4%",
+      "notes": "Seasonal performance variations"
+    },
+    "Arcade": {
+      "revenue_2024": "$2.0-3.0 billion",
+      "market_share_revenue": "2.4-3.7%",
+      "download_share": "19%",
+      "download_growth": "-12.5%",
+      "notes": "High downloads but low monetization efficiency. Declining trend."
+    }
+  },
+  "market_context": {
+    "total_mobile_game_revenue_2024": "$81-92 billion",
+    "yoy_growth": "+3% to +4%",
+    "total_downloads_2024": "49-49.6 billion",
+    "download_growth": "-6% to -7%",
+    "key_trend": "Revenue growth despite download decline indicates improved monetization efficiency across genres"
+  }
+}
