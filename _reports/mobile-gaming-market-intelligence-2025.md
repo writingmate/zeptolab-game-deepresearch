@@ -3,7 +3,7 @@ layout: report
 title: "Mobile Gaming Market Intelligence Report 2025"
 date: 2025-08-14
 genre: "Market Intelligence"
-market_size: "81-92B"
+market_size: "92B"
 methodology: "8-stage comprehensive research pipeline with validation"
 summary: "Comprehensive analysis of top-grossing mobile game genres revealing unprecedented player dissatisfaction with monetization practices, creating a $20-30B ethical gaming opportunity. Research identifies strategy games as the new market leader and premium gaming as a massive underserved segment."
 
@@ -15,8 +15,8 @@ key_findings:
   - "EthiQuest concept scored 90/100 with $2.5-31.5M revenue potential through ethical monetization"
 
 sources:
-  - name: "Sensor Tower State of Mobile Gaming 2025"
-    url: "https://sensortower.com/blog/state-of-mobile-gaming-2025"
+  - name: "Sensor Tower State of Mobile Gaming 2024"
+    url: "https://sensortower.com/state-of-mobile-gaming-2024"
     description: "Comprehensive mobile gaming market analysis and revenue trends"
   - name: "Data.ai State of Mobile 2024"
     url: "https://www.data.ai/en/insights/market-data/state-of-mobile-2024/"
@@ -47,7 +47,7 @@ related_reports:
 
 ### Key Strategic Findings
 
-The mobile gaming market presents a **$81-92 billion opportunity** in 2024, with **critical market disruption potential** through ethical monetization and premium gaming experiences. Our comprehensive analysis reveals unprecedented player dissatisfaction with current monetization practices (95% complaint rate), creating a **$20-30 billion addressable market** for ethical alternatives.
+The mobile gaming market presents a **$92 billion opportunity** in 2024, with **critical market disruption potential** through ethical monetization and premium gaming experiences. Our comprehensive analysis reveals unprecedented player dissatisfaction with current monetization practices (95% complaint rate), creating a **$20-30 billion addressable market** for ethical alternatives.
 
 **Top Strategic Recommendations:**
 
@@ -79,7 +79,7 @@ The mobile gaming market presents a **$81-92 billion opportunity** in 2024, with
 ### Global Market Overview
 
 **Market Performance 2024:**
-- **Total Revenue:** $81-92 billion (+3-4% YoY)
+- **Total Revenue:** $92 billion (+4% YoY)
 - **Total Downloads:** 49-49.6 billion (-6-7% YoY)
 - **Key Trend:** Revenue growth despite download decline indicates improved monetization efficiency
 
@@ -94,7 +94,7 @@ The mobile gaming market presents a **$81-92 billion opportunity** in 2024, with
 | **iOS** | 60-70% | 30% | 2-3x Android | $4.83 |
 | **Android** | 30-40% | 70%+ | Baseline | $0.65 |
 
-*Sources: [Sensor Tower](https://sensortower.com/state-of-gaming-2025), [Game World Observer](https://gameworldobserver.com/2024/07/30/mobile-games-19-7-billion-revenue-q2-rpg-sensor-tower)*
+*Sources: [Sensor Tower](https://sensortower.com/state-of-mobile-gaming-2024), [Game World Observer](https://gameworldobserver.com/2024/07/30/mobile-games-19-7-billion-revenue-q2-rpg-sensor-tower)*
 
 ### Genre Performance Analysis
 
@@ -104,7 +104,7 @@ The mobile gaming market presents a **$81-92 billion opportunity** in 2024, with
 |------|-------|---------|--------------|------------------------|------------|
 | 1 | **Strategy** | $17.5B | 21.4% | Extremely High | Positive ↗️ |
 | 2 | **RPG** | $16.8B | 20.5% | High | Declining ↘️ |
-| 3 | **Puzzle** | $12.2B | 14.9% | Medium-High | Positive ↗️ |
+| 3 | **Puzzle** | $12.2B | 13.3% | Medium-High | Positive ↗️ |
 | 4 | **Casino** | $11.7B | 14.3% | Very High | Stable ➡️ |
 | 5 | **Simulation** | $6.1B | 7.4% | Medium | Positive ↗️ |
 

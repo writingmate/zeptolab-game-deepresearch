@@ -15,18 +15,18 @@ key_findings:
   - "D30 retention rates lead all genres at 7.15% with 28.97 minute average sessions"
 
 sources:
-  - name: "Sensor Tower"
-    url: "https://sensortower.com"
+  - name: "Sensor Tower State of Mobile Gaming 2024"
+    url: "https://sensortower.com/state-of-mobile-gaming-2024"
     description: "Mobile app analytics and market data"
-  - name: "GameRefinery"
-    url: "https://gamerefinery.com"
+  - name: "GameRefinery Mobile Game Market Review"
+    url: "https://gamerefinery.com/mobile-game-market-review-march-2025/"
     description: "Game feature analysis and KPI benchmarks"
-  - name: "App Annie/data.ai"
-    url: "https://data.ai"
-    description: "Mobile market intelligence"
-  - name: "Newzoo"
-    url: "https://newzoo.com"
-    description: "Gaming market research and analytics"
+  - name: "Business of Apps Market Data"
+    url: "https://www.businessofapps.com/"
+    description: "Mobile market intelligence and statistics"
+  - name: "PocketGamer.biz Industry Analysis"
+    url: "https://www.pocketgamer.biz/"
+    description: "Mobile gaming industry news and market research"
 
 related_reports:
   - title: "Hybrid-Casual Market Research Report"

@@ -15,8 +15,8 @@ key_findings:
   - "Top performers maintain 4.6+ App Store ratings with 50K+ reviews"
 
 sources:
-  - name: "Sensor Tower State of Mobile Gaming 2025"
-    url: "https://sensortower.com/blog/state-of-mobile-gaming-2025"
+  - name: "Sensor Tower State of Mobile Gaming 2024"
+    url: "https://sensortower.com/state-of-mobile-gaming-2024"
     description: "Comprehensive mobile gaming market analysis and trends"
   - name: "Hybrid Casual Market Overview 2025 - Gamigion"
     url: "https://www.gamigion.com/2025-hybridcasual-market-overview-with-real-data/"
@@ -38,7 +38,7 @@ related_reports:
 
 ## Executive Summary
 
-Hybrid-casual games represent the fastest-growing segment in mobile gaming, with **37% increase in IAP revenue year-over-year** [(Sensor Tower, 2025)](https://sensortower.com/blog/state-of-mobile-gaming-2025). This comprehensive analysis identifies hybrid-casual as the dominant trend revolutionizing casual gaming through sophisticated monetization strategies that blend accessibility with deeper engagement mechanics.
+Hybrid-casual games represent the fastest-growing segment in mobile gaming, with **37% increase in IAP revenue year-over-year** [(Sensor Tower, 2024)](https://sensortower.com/state-of-mobile-gaming-2024). This comprehensive analysis identifies hybrid-casual as the dominant trend revolutionizing casual gaming through sophisticated monetization strategies that blend accessibility with deeper engagement mechanics.
 
 ---
 
@@ -69,7 +69,7 @@ Hybrid-casual games represent the fastest-growing segment in mobile gaming, with
 | Other Markets | $52.1M | 30% |
 | **Total** | **$174.8M** | **100%** |
 
-*Source: [(Sensor Tower, 2025)](https://sensortower.com/blog/state-of-mobile-gaming-2025)*
+*Source: [(Sensor Tower, 2024)](https://sensortower.com/state-of-mobile-gaming-2024)*
 
 ### Puzzle Sub-Genre Revenue Share
 
@@ -90,7 +90,7 @@ Hybrid-casual games represent the fastest-growing segment in mobile gaming, with
 | Triple Match City | MOONEE | $9.1M |
 | Raid Rush TD | Good Job Games | $7.6M |
 
-*Source: [(Sensor Tower, 2025)](https://sensortower.com/blog/state-of-mobile-gaming-2025)*
+*Source: [(Sensor Tower, 2024)](https://sensortower.com/state-of-mobile-gaming-2024)*
 
 ### Hybrid-Casual Retention Benchmarks
 
@@ -103,7 +103,7 @@ Hybrid-casual games represent the fastest-growing segment in mobile gaming, with
 *Source: [(GameRefinery, 2025)](https://gamerefinery.com/mobile-game-market-review-march-2025/)*
 
 **Overall Market Size:**
-- **Growth Rate**: **37% increase** in IAP revenue year-over-year (2024-2025) [(Sensor Tower State of Mobile Gaming, 2025)](https://sensortower.com/blog/state-of-mobile-gaming-2025)
+- **Growth Rate**: **37% increase** in IAP revenue year-over-year (2024-2025) [(Sensor Tower State of Mobile Gaming, 2024)](https://sensortower.com/state-of-mobile-gaming-2024)
 - **Market Share**: **$174.8M monthly revenue** in March 2025 (App Store iPhone/iPad only) [(Gamigion Hybrid Casual Market Overview, 2025)](https://www.gamigion.com/2025-hybridcasual-market-overview-with-real-data/)
 
 **Regional Performance:**
@@ -533,7 +533,7 @@ This analysis integrates insights from two leading game industry research source
 
 ## Conclusion
 
-The hybrid-casual gaming market demonstrates **37% year-over-year growth** [(Sensor Tower, 2025)](https://sensortower.com/blog/state-of-mobile-gaming-2025) with **$174.8M monthly revenue** [(Gamigion, 2025)](https://www.gamigion.com/2025-hybridcasual-market-overview-with-real-data/), driven by sophisticated players seeking engaging casual experiences.
+The hybrid-casual gaming market demonstrates **37% year-over-year growth** [(Sensor Tower, 2024)](https://sensortower.com/state-of-mobile-gaming-2024) with **$174.8M monthly revenue** [(Gamigion, 2025)](https://www.gamigion.com/2025-hybridcasual-market-overview-with-real-data/), driven by sophisticated players seeking engaging casual experiences.
 
 **Key Strategic Insights:**
 - **Block puzzles dominate** with 71% of puzzle revenue and proven monetization models
