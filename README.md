@@ -149,55 +149,89 @@ Depth required: [Comprehensive/Summary/Data-focused]
 
 ## 🔍 AI Research Methodology
 
-Our 8-stage systematic research pipeline ensures comprehensive, validated market intelligence through specialized AI agents:
+Our comprehensive research methodology combines a detailed 9-step data collection pipeline executed by 8 specialized AI agents to ensure thorough market intelligence:
 
-### Stage 1: Market Intelligence Collection
-**Agent: Market Intelligence**
-- Revenue data gathering from authoritative sources (Sensor Tower, GameRefinery)
-- Performance metrics compilation and geographic analysis
-- Platform distribution studies and competitive landscape mapping
+### 📋 9-Step Data Collection Pipeline
 
-### Stage 2: Player Sentiment Analysis  
-**Agent: Player Insights**
-- Community feedback aggregation from reviews, forums, social media
-- Pain point identification and unmet needs discovery
-- Demographic behavior patterns and preference analysis
+1. **Market Intelligence Collection** - Top games data, performance metrics, regional analysis
+2. **Competitive Feature Analysis** - Feature matrices, monetization models, must-have vs nice-to-have
+3. **Performance Benchmarking** - KPIs, retention rates, ARPDAU, CPI/LTV analysis
+4. **Player Sentiment Analysis** - Community research, app store reviews, pain points
+5. **Industry Context Research** - Expert analysis, GDC insights, trend forecasting
+6. **Gap Analysis & Hypothesis Generation** - Market opportunities, concept ideation
+7. **Concept Scoring & Validation** - Multi-criteria evaluation, comparable game analysis
+8. **Reference Game Deep Dive** - Success factor analysis, monetization teardowns
+9. **Final Report Generation** - Comprehensive analysis with source verification
 
-### Stage 3: Industry Expert Research
-**Agent: Industry Research** 
-- Thought leader insights compilation from conferences and publications
-- Investment trend analysis and technology roadmap assessment
+### 🤖 AI Agent Execution Framework
+
+Our 8 specialized agents execute the above pipeline stages with domain expertise:
+
+#### **Stages 1-3: Core Data Collection**
+**Agent: Market Intelligence** (Steps 1-3)
+- **Step 1**: Top games data, performance metrics, regional analysis
+- **Step 2**: Feature matrices, monetization models, must-have vs nice-to-have analysis
+- **Step 3**: KPIs, retention rates, ARPDAU, CPI/LTV benchmarking
+
+#### **Stage 4: Player Research**
+**Agent: Player Insights** (Step 4)
+- **Step 4**: Community research, app store reviews, pain point identification
+- Demographic behavior patterns and unmet needs discovery
+- Social media sentiment analysis and preference mapping
+
+#### **Stage 5: Industry Context**
+**Agent: Industry Research** (Step 5)
+- **Step 5**: Expert analysis, GDC insights, trend forecasting
+- Investment analysis and technology roadmap assessment
 - Strategic forecast integration from market authorities
 
-### Stage 4: Market Gap Identification
-**Agent: Opportunity Analyst**
-- White space opportunity mapping and competitive positioning
+#### **Stage 6: Opportunity Identification**
+**Agent: Opportunity Analyst** (Step 6)
+- **Step 6**: Market gap analysis and hypothesis generation
+- White space opportunity mapping and concept ideation
 - Innovation potential assessment with risk-reward evaluation
-- Strategic opportunity prioritization and feasibility analysis
 
-### Stage 5: Concept Development & Scoring
-**Agent: Concept Scoring**
-- Game concept generation based on validated findings
+#### **Stage 7: Concept Evaluation**
+**Agent: Concept Scoring** (Step 7)
+- **Step 7**: Multi-criteria evaluation and comparable game analysis
 - Rigorous 100-point scoring methodology application
 - Market potential assessment and development feasibility analysis
 
-### Stage 6: Reference Game Analysis
-**Agent: Reference Analysis**
-- Successful title deconstruction and pattern extraction
-- Implementation insight gathering and success factor identification
-- Monetization strategy analysis and best practice documentation
+#### **Stage 8: Reference Analysis**
+**Agent: Reference Analysis** (Step 8)
+- **Step 8**: Success factor analysis and monetization teardowns
+- Implementation insight gathering and pattern extraction
+- Best practice documentation and competitive intelligence
 
-### Stage 7: Data Validation & Quality Assurance
-**Agent: Editor Judge**
-- Data integrity verification and source citation validation
-- Cross-reference consistency checks and confidence scoring
-- Quality assurance enforcement and error identification
+#### **Stage 9: Quality Assurance & Report Generation**
+**Agent: Editor Judge + Report Generation** (Step 9)
+- **Step 9**: Comprehensive analysis with source verification
+- Data integrity validation and cross-reference consistency
+- Professional report synthesis with actionable recommendations
 
-### Stage 8: Report Generation & Synthesis
-**Agent: Report Generation**
-- Professional report synthesis with executive summaries
-- Actionable insights compilation and strategic recommendations
-- Publication-ready formatting with comprehensive source documentation
+### 📊 Critical Data Collection Points
+
+**Market Intelligence (Steps 1-3):**
+- Revenue figures, market size, and growth rates by genre
+- Top-performing games with download and revenue metrics
+- Feature analysis matrices (core vs optional vs innovative features)
+- Monetization model breakdowns (IAP vs IAA vs subscription splits)
+- KPI benchmarks (D1/D7/D30 retention, ARPDAU, conversion rates)
+- Regional performance data and platform distribution
+
+**Player & Industry Research (Steps 4-5):**
+- App store review sentiment analysis with categorized pain points
+- Community forum discussions and player behavior patterns
+- Expert insights from GDC presentations and industry publications
+- Investment trends and M&A activity in target genres
+- Technology adoption forecasts and regulatory landscape analysis
+
+**Strategic Analysis (Steps 6-9):**
+- Market gap identification with quantified opportunity sizing
+- Game concept generation with detailed scoring matrices
+- Reference game deconstruction with success factor extraction
+- Implementation roadmaps with timeline and resource requirements
+- Risk assessment and competitive positioning strategies
 
 ### Quality Standards
 - **✅ Source Verification**: Every data point backed by accessible, authoritative sources
