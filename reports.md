@@ -13,6 +13,7 @@ Browse our complete collection of game market research reports. Each report foll
     <label for="genre-filter">Filter by Genre:</label>
     <select id="genre-filter" onchange="filterReports()">
       <option value="all">All Genres</option>
+      <option value="market intelligence">Market Intelligence</option>
       <option value="match-3">Match-3</option>
       <option value="hybrid-casual">Hybrid-Casual</option>
       <option value="puzzle">Puzzle</option>
