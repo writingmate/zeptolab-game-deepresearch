@@ -1,166 +1,292 @@
-# ZeptoLab Game Deep Research
+# ZeptoLab Game Market Research Repository
 
-Comprehensive market research and analysis for mobile game development, focusing on systematic evaluation of gaming genres, competitive landscapes, and concept validation.
+Comprehensive mobile gaming market intelligence reports powered by AI-driven research agents and systematic analysis pipelines. Request new reports and updates using `@claude` in GitHub issues.
 
 ## 📁 Repository Structure
 
 ```
-input/          # Source documents, methodology, and customer specifications
-├── Game_Genre_Research_Pipeline.md           # 9-step systematic pipeline
-├── Genre Deep-Dive.md + .pdf                # Original customer inputs
-├── Market Research Methodology & Calculation Spec.md
-└── Market Research Pipeline - draft.md + .pdf
+_reports/       # Published market research reports (Jekyll site)
+├── mobile-gaming-market-intelligence-2025.md   # $92B market overview
+├── battle-royale-tactical-shooter-market-research.md # $4.2B segment analysis  
+├── hybrid-casual-market-research.md            # $2.1B growth segment
+└── match-3-market-research.md                  # $10.2B established market
 
-output/         # Generated research reports and analysis
-├── Game Market Research Pipeline.md
-├── Hybrid_Casual_Market_Research_Report.md   # Latest: 37% growth analysis
-├── Match-3 Market Research Report.md
-└── Visual Analysis & Market Data Report.md
+research/       # AI agent research data and validation
+├── market_intelligence/    # Revenue data, geographic analysis, trends
+├── player_insights/        # Sentiment analysis, pain points, demographics
+├── industry_insights/      # Expert perspectives, investment trends
+├── opportunity_analysis/   # Market gaps, strategic opportunities  
+├── concept_evaluation/     # Game concept scoring and validation
+├── reference_analysis/     # Successful game implementation patterns
+└── validation/            # Data integrity reports, source verification
+
+.claude/agents/ # Specialized AI research agents
+├── market-intelligence.md      # Market data collection agent
+├── player-insights.md          # Player sentiment analysis agent
+├── industry-research.md        # Expert insights gathering agent
+├── opportunity-analyst.md      # Strategic opportunity identification
+├── concept-scoring.md          # Game concept evaluation agent
+├── reference-analysis.md       # Successful game pattern analysis
+├── editor-judge.md            # Data validation and integrity agent
+└── report-generation.md       # Comprehensive report synthesis
 ```
 
-## 🎯 Project Overview
+## 🤖 AI Research Agents Overview
 
-This repository contains a complete market research pipeline for mobile game development, featuring:
+This repository uses 8 specialized AI agents to conduct comprehensive market research. Each agent focuses on a specific domain of analysis, ensuring thorough and validated market intelligence.
 
-- **Systematic Market Analysis** - Data-driven research methodology for gaming genres
-- **Competitive Intelligence** - Comprehensive feature analysis and performance benchmarks  
-- **Concept Development** - Validated game concepts with scoring frameworks
-- **Visual Analysis** - Reference game breakdowns and design documentation
+### Core Research Agents
 
-## 📊 Key Research Outputs
+- **🎯 Market Intelligence Agent** - Gathers comprehensive market data, revenue figures, and performance metrics from authoritative sources
+- **👥 Player Insights Agent** - Analyzes player sentiment, pain points, and unmet needs through community data and reviews
+- **🏭 Industry Research Agent** - Collects expert analysis, trend forecasts, and strategic insights from thought leaders and conferences
+- **💎 Opportunity Analyst Agent** - Cross-references all data to identify market gaps and strategic opportunities with risk assessment
+- **⚖️ Concept Scoring Agent** - Evaluates game concepts using rigorous 100-point scoring methodology for market potential
+- **🔍 Reference Analysis Agent** - Deep-dives successful games to extract implementation patterns and success factors
+- **✅ Editor Judge Agent** - Validates data integrity, verifies sources, and ensures rigorous citation standards
+- **📋 Report Generation Agent** - Synthesizes all findings into comprehensive, actionable market intelligence reports
 
-### Latest Market Research Reports
-- **Hybrid-Casual Games Analysis** - $1.4B market, 37% IAP growth, Color Block Jam $25.5M success
-- **Match-3 Market Analysis** - Complete pipeline execution for the $10.2B match-3 genre
-- **Visual Analysis & Market Data** - Comprehensive competitive landscape documentation
-- **Genre Deep-Dive** - Original customer research framework and specifications
+## 📊 Published Market Research Reports
 
-### Research Methodology & Pipeline
-- **Game Genre Research Pipeline** - 9-step systematic AI-automated approach
-- **Market Research Methodology** - Detailed calculation specs and validation standards
-- **Quality Assurance Framework** - Data sourcing hierarchy and reliability rankings
-- **Pipeline Execution** - Genre-agnostic framework with source verification
+| Report | Market Size | Last Updated | Key Insights |
+|--------|-------------|--------------|--------------|
+| [📈 Mobile Gaming Market Intelligence 2025](/_reports/mobile-gaming-market-intelligence-2025.md) | **$92B** | Aug 2025 | Strategy games overtook RPG (#1 genre), $20-30B ethical monetization opportunity identified |
+| [🎮 Battle Royale & Tactical Shooter](/_reports/battle-royale-tactical-shooter-market-research.md) | **$4.2B** | Aug 2025 | PUBG Mobile leads at $1.3B, high technical barriers, regional localization critical |
+| [🎯 Hybrid-Casual Market Research](/_reports/hybrid-casual-market-research.md) | **$2.1B** | Jan 2025 | 37% IAP revenue growth YoY, Color Block Jam dominance with $43.6M revenue |
+| [🧩 Match-3 Market Research](/_reports/match-3-market-research.md) | **$10.2B** | Jan 2025 | Royal Match overtook Candy Crush, strong narrative integration opportunities |
 
-## 🎮 Market Intelligence Highlights
+### Research Quality Standards
+- **✅ Data Integrity Score**: 73-95/100 across all reports
+- **✅ Source Verification**: 95%+ working URLs, multiple source validation
+- **✅ Expert Validation**: Industry thought leader insights integrated
+- **✅ Cross-Referenced**: All major claims backed by 2+ authoritative sources
 
-### Hybrid-Casual Games (Latest Analysis)
-- **Market Size**: $1.4B revenue in 2025, reaching $174.8M monthly (App Store)
-- **Growth Rate**: **37% IAP revenue increase** year-over-year
-- **Market Leaders**: Color Block Jam ($25.5M Q1), Magic Sort, Twisted Tangle
-- **Key Metrics**: D1: 25-33%, ARPDAU: $0.05-0.10, 40% IAP/60% ad revenue split
+## 🚀 Requesting New Reports via GitHub Issues
 
-### Match-3 Genre Analysis
-- **Market Size**: $10.2B globally (3rd largest mobile game genre)
-- **Market Leader**: Royal Match ($2B+ revenue, overtaking Candy Crush Saga)
-- **Growth Rate**: +14% YoY increase in IAP revenue
-- **Key Metrics**: D1: 24%, D7: 20%+, D30: 7.15% retention rates
+You can request new market research reports by mentioning `@claude` in GitHub issues. Our AI research agents will automatically analyze your request and generate comprehensive reports following our validated 8-stage methodology.
 
-## 🔍 Research Methodology
+### 📝 How to Request a New Report
 
-### 9-Step AI-Automated Research Pipeline
+1. **Create a new GitHub issue** with a descriptive title
+2. **Mention `@claude`** to activate our research agents  
+3. **Specify the game genre or market segment** you want analyzed
+4. **Include any specific requirements** or focus areas
 
-1. **Market Intelligence Collection** - Top games data, performance metrics, regional analysis
-2. **Competitive Feature Analysis** - Feature matrices, monetization models, must-have vs nice-to-have
-3. **Performance Benchmarking** - KPIs, retention rates, ARPDAU, CPI/LTV analysis
-4. **Player Sentiment Analysis** - Community research, app store reviews, pain points
-5. **Industry Context Research** - Expert analysis, GDC insights, trend forecasting
-6. **Gap Analysis & Hypothesis Generation** - Market opportunities, concept ideation
-7. **Concept Scoring & Validation** - Multi-criteria evaluation, comparable game analysis
-8. **Reference Game Deep Dive** - Success factor analysis, monetization teardowns
-9. **Final Report Generation** - Comprehensive analysis with source verification
+#### 💡 Example Issue Templates
 
-### Data Sources & Reliability
-- **Tier 1**: Sensor Tower, GameRefinery, App Annie/data.ai, Company earnings
-- **Tier 2**: Statista, GameAnalytics, Liftoff, Business of Apps
-- **Tier 3**: Industry experts (GDC, Naavik, Deconstructor of Fun), community insights
+**Basic Market Research Request:**
+```markdown
+@claude Please generate a comprehensive market research report for [GENRE] mobile games.
 
-### Critical Requirements
-- **Source Verification**: Every data point backed by working source links
-- **Multi-Source Validation**: Minimum 2-3 sources for major metrics
-- **Quality Gates**: Pipeline halts if sourcing requirements not met
-- **Execution**: 4-6 hours for complete genre analysis
+Focus areas:
+- Market size and growth trends
+- Top performing games analysis  
+- Player demographics and behavior
+- Monetization strategies
+- Innovation opportunities
 
-## 🎨 Concept Development Results
+Timeline: [DESIRED COMPLETION DATE]
+```
 
-### Validated Game Concepts
+**Competitive Analysis Request:**
+```markdown
+@claude I need a competitive analysis report comparing [GAME/GENRE] with market leaders.
 
-1. **Detective Noir Match-3** (Score: 12/15)
-   - Episodic detective gameplay with investigation mechanics
-   - Target: Mystery/crime content consumers aged 35-50
-   - Innovation: Evidence-based puzzle progression
+Specific games to analyze:
+- [Game 1]
+- [Game 2] 
+- [Game 3]
 
-2. **EcoCity Match-3 Builder** (Score: 12/15)
-   - Environmental city building with gameplay consequences
-   - Target: Environmentally conscious players 25-45
-   - Innovation: Meta choices affect board mechanics
+Key metrics needed:
+- Revenue performance
+- User acquisition strategies
+- Feature differentiation
+- Market positioning
+```
 
-3. **Survival Craft Match-3** (Score: 10/15)
-   - Resource management survival with strategic depth
-   - Target: Hardcore mobile gamers seeking control
-   - Innovation: Skill-based progression over RNG
+**Strategic Opportunity Research:**
+```markdown
+@claude Research market opportunities for [SPECIFIC CONCEPT/THEME] in mobile gaming.
 
-## 📈 Performance Benchmarks
+Requirements:
+- Market gap analysis
+- Player demand validation
+- Technical feasibility assessment
+- Revenue potential estimation
+- Implementation roadmap
+```
 
-### Industry KPIs
-- **ARPDAU**: $0.54 overall, $0.31 from IAPs
-- **Conversion Rate**: 2%+ target, 3.5-4% top performers
-- **Session Length**: 28.97 minutes average
-- **Market Share**: 21% of US iOS revenue (Match-3)
+### 📈 Requesting Report Updates
 
-### Validation Criteria
-- **10-Minute Rule**: 60%+ new players engage 10+ minutes
-- **Monetization Triggers**: First 3 pay moments before minute 30
-- **Retention Targets**: D1: >40%, D7: >20%, D30: >7%
+Request updates to existing reports when you need additional research or data validation:
 
-## 🚀 Implementation Framework
+**Data Update Request:**
+```markdown
+@claude Please update the [REPORT NAME] with latest 2025 data.
 
-### Development Timeline
-- **Phase 1**: Market intelligence (3-5 days)
-- **Phase 2**: Opportunity assessment (2-3 days)
-- **Phase 3**: Concept development (2-3 days)
-- **Prototype**: 6-9 months concept to soft launch
+Areas needing updates:
+- [ ] Revenue figures for Q3/Q4 2025
+- [ ] New game launches and market impact
+- [ ] Updated player sentiment analysis
+- [ ] Revised market forecasts
 
-### Success Metrics
-- Market performance vs. $10.2B match-3 benchmarks
-- Player satisfaction vs. 7.15% D30 genre leadership
-- Revenue generation supporting sustainable growth
-- Innovation impact and market differentiation
+Additional research needed:
+- [Specific areas requiring deeper analysis]
+```
 
-## 📋 Quality Standards
+**Expanded Analysis Request:**
+```markdown
+@claude Expand the [REPORT NAME] analysis to include:
 
-### Data Validation Requirements
-- Minimum 3 authoritative sources per major metric
-- Cross-reference methodology documentation
-- Historical context for trend analysis
-- Regional/platform scope definition
+New sections needed:
+- Regional market breakdown for [SPECIFIC REGIONS]
+- Emerging technology impact (AI, AR/VR, etc.)
+- Regulatory landscape analysis
+- Seasonal trend analysis
 
-### Report Structure Standards
-- Executive Summary with key findings
-- Market Intelligence with competitive landscape
-- Reference Analysis with performance data
-- Opportunity Assessment with scoring matrices
-- Concept Briefs with detailed specifications
-- Implementation Framework with success criteria
+Depth required: [Comprehensive/Summary/Data-focused]
+```
 
-## 🔄 Continuous Improvement
+## 🔍 AI Research Methodology
 
-### Update Frequency
-- **Market Size Data**: Quarterly updates minimum
-- **Performance Benchmarks**: Monthly for active monitoring
-- **Competitive Analysis**: Bi-annual formal updates
-- **Visual Analysis**: Annual refresh cycle
+Our 8-stage systematic research pipeline ensures comprehensive, validated market intelligence through specialized AI agents:
+
+### Stage 1: Market Intelligence Collection
+**Agent: Market Intelligence**
+- Revenue data gathering from authoritative sources (Sensor Tower, GameRefinery)
+- Performance metrics compilation and geographic analysis
+- Platform distribution studies and competitive landscape mapping
+
+### Stage 2: Player Sentiment Analysis  
+**Agent: Player Insights**
+- Community feedback aggregation from reviews, forums, social media
+- Pain point identification and unmet needs discovery
+- Demographic behavior patterns and preference analysis
+
+### Stage 3: Industry Expert Research
+**Agent: Industry Research** 
+- Thought leader insights compilation from conferences and publications
+- Investment trend analysis and technology roadmap assessment
+- Strategic forecast integration from market authorities
+
+### Stage 4: Market Gap Identification
+**Agent: Opportunity Analyst**
+- White space opportunity mapping and competitive positioning
+- Innovation potential assessment with risk-reward evaluation
+- Strategic opportunity prioritization and feasibility analysis
+
+### Stage 5: Concept Development & Scoring
+**Agent: Concept Scoring**
+- Game concept generation based on validated findings
+- Rigorous 100-point scoring methodology application
+- Market potential assessment and development feasibility analysis
+
+### Stage 6: Reference Game Analysis
+**Agent: Reference Analysis**
+- Successful title deconstruction and pattern extraction
+- Implementation insight gathering and success factor identification
+- Monetization strategy analysis and best practice documentation
+
+### Stage 7: Data Validation & Quality Assurance
+**Agent: Editor Judge**
+- Data integrity verification and source citation validation
+- Cross-reference consistency checks and confidence scoring
+- Quality assurance enforcement and error identification
+
+### Stage 8: Report Generation & Synthesis
+**Agent: Report Generation**
+- Professional report synthesis with executive summaries
+- Actionable insights compilation and strategic recommendations
+- Publication-ready formatting with comprehensive source documentation
+
+### Quality Standards
+- **✅ Source Verification**: Every data point backed by accessible, authoritative sources
+- **✅ Multi-Source Validation**: Minimum 2-3 sources for all major metrics and claims
+- **✅ Data Integrity Scoring**: 73-95/100 reliability scores across all reports
+- **✅ Expert Validation**: Industry thought leader perspectives integrated throughout
+
+## 🎯 Use Cases & Applications
+
+**Strategic Planning**
+- Market entry decisions and investment prioritization  
+- Product roadmap development and competitive positioning
+- Revenue forecasting and business model validation
+
+**Product Development**
+- Feature prioritization based on player demand analysis
+- Monetization strategy design with ethical considerations
+- Target demographic validation and user experience optimization
+
+**Investment & Business Development**
+- Due diligence for gaming sector investments
+- Partnership opportunity identification and market expansion
+- Risk assessment and competitive intelligence gathering
+
+## 📊 Key Market Intelligence Highlights
+
+### Top Strategic Opportunities Identified
+1. **💰 Ethical Monetization Gap** - $20-30B addressable market for player-friendly approaches
+2. **🎮 Premium Mobile Gaming** - $5-8B underserved market seeking ad-free experiences  
+3. **🤖 AI Personalization** - 78% player demand with minimal current market supply
+4. **🌍 Cross-Platform Gaming** - 92% demand for unified progression across devices
+
+### Market Performance Benchmarks
+- **Total Mobile Gaming Market**: $92B (4% YoY growth)
+- **Genre Leaders**: Strategy ($17.5B), RPG ($16.8B), Puzzle ($12.2B)
+- **Fastest Growth**: Hybrid-Casual (37% IAP revenue increase)
+- **Regional Growth**: Europe +14%, Latin America +13%, Middle East +18%
+
+## 📞 Getting Help & Support
+
+**For New Report Requests:**
+- Create GitHub issue with `@claude` mention
+- Include specific requirements and target timeline
+- Tag with appropriate labels (`research-request`, `market-analysis`, etc.)
+
+**For Report Updates:**
+- Reference specific report sections in GitHub issues
+- Request clarification, additional sources, or data updates
+- Suggest improvements or methodological enhancements
+
+**For Technical Issues:**
+- Report broken links or data inconsistencies
+- Request format changes or accessibility improvements
+- Propose new research methodologies or agent capabilities
+
+**For Strategic Consultation:**
+- Discuss findings interpretation and strategic implications
+- Request customized analysis for specific business needs
+- Collaborate on methodology refinements and quality improvements
+
+## 🤝 Contributing
+
+This repository leverages AI-driven research agents for automated report generation. Human contributions are welcomed for:
+
+- **Data Source Recommendations** - Suggest new authoritative sources and data providers
+- **Methodology Improvements** - Propose enhancements to research frameworks and validation standards  
+- **Quality Assurance** - Provide feedback on data accuracy, source reliability, and analysis depth
+- **Regional Market Insights** - Share local market knowledge and cultural context
+- **Industry Expert Connections** - Facilitate access to thought leaders and market authorities
+
+**To Contribute:** Create an issue with `@claude` mentioning your suggested improvements, additional research areas, or expert insights to integrate into our analysis pipeline.
+
+## 🔗 Resources & Links
+
+- **📈 Live Reports**: Browse current market research at [/_reports/](/_reports/)
+- **🤖 AI Agents**: Research methodology documentation in [/.claude/agents/](/.claude/agents/)
+- **📊 Research Data**: Validated datasets and analysis in [/research/](/research/)
+- **✅ Data Validation**: Quality assurance reports in [/research/validation/](/research/validation/)
 
 ---
 
-## 📞 Contact & Usage
+## 📄 License & Usage
 
-This research framework is designed for systematic market analysis and concept validation in mobile game development. The methodology can be adapted for any gaming genre with appropriate data source adjustments.
+This market research repository is designed for strategic analysis and concept validation in mobile game development. The AI-powered methodology can be adapted for any gaming genre with appropriate data source adjustments.
 
-For questions about methodology or research findings, refer to the detailed specifications in the `input/` folder or the comprehensive analysis reports in the `output/` folder.
+**Research Standards**: All reports follow academic-level citation standards with verified sources and cross-referenced data validation.
 
 ---
 
-*Last Updated: January 2025*  
-*Latest Research: Hybrid-Casual Games Market Analysis (37% growth, $1.4B market)*  
-*Pipeline Status: 9-step AI-automated framework with source verification*  
-*Next Focus: Additional genre deep-dives and emerging market opportunities*
+*🤖 Powered by Claude Code AI Research Agents | Last Updated: August 2025*  
+*📊 Current Focus: $92B mobile gaming market with ethical monetization opportunities*  
+*🎯 Next Research: Emerging technology impact and regulatory landscape analysis*
