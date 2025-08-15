@@ -31,7 +31,10 @@
       "WebFetch(domain:gamedevreports.substack.com)",
       "WebFetch(domain:www.mistplay.com)",
       "Bash(git pull:*)",
-      "Bash(git stash:*)"
+      "Bash(git stash:*)",
+      "WebFetch(domain:www.appsflyer.com)",
+      "WebFetch(domain:www.businessofapps.com)",
+      "WebFetch(domain:www.pocketgamer.biz)"
     ],
     "deny": [],
     "defaultMode": "acceptEdits"
